@@ -36,7 +36,7 @@ class Header extends React.Component {
                   <NavLink href="/tags">Topics</NavLink>
                 </NavItem>
                 <NavItem>
-                  <NavLink href="/avis">Disclaimer</NavLink>
+                  <NavLink href="/disclaimer">Disclaimer</NavLink>
                 </NavItem>
                 <NavItem>
                 <NavLink href="/rss.xml">
@@ -46,6 +46,13 @@ class Header extends React.Component {
               </NavItem>
                 <NavItem>
                   <NavLink href="/about">About</NavLink>
+                </NavItem>
+                <NavItem>
+                  <NavLink href="https://socratic.dev">
+                    <span aria-label="visitez le site en français">
+                    🇫🇷
+                    </span>
+                  </NavLink>
                 </NavItem>
               </Nav>
             </Collapse>

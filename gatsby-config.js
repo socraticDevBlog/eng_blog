@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
-    title: `SocraticDev Blog`,
-    description: `Un lieu pour parler de passions : la technologie, la philosophie et la culture générale`,
+    title: `SocraticDev's Blog`,
+    description: `Talking about Technology, Philosophy and everything interesting`,
     author: `Maxime Bonin`,
     siteUrl: `https://en.socratic.dev`,
   },
