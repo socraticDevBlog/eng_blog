@@ -41,7 +41,7 @@ class Header extends React.Component {
                 <NavItem>
                 <NavLink href="/rss.xml">
                   RSS
-                  <span aria-label="abonnement au fil RSS">💌 </span>
+                  <span aria-label="subscription to RSS feed">💌 </span>
                 </NavLink>
               </NavItem>
                 <NavItem>
@@ -49,7 +49,7 @@ class Header extends React.Component {
                 </NavItem>
                 <NavItem>
                   <NavLink href="https://socratic.dev">
-                    <span aria-label="visitez le site en français">
+                    <span aria-label="visit site in french">
                     🇫🇷
                     </span>
                   </NavLink>
