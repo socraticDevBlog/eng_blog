@@ -1,5 +1,5 @@
 ---
-title: some wise quotes
+title: Wise quotes
 date: 2019-12-23
 author: "SocraticDev"
 image: ../../images/diver.jpg
