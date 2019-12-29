@@ -4,11 +4,40 @@ import SEO from "../components/seo"
 
 const AboutPage = () => (
   <Layout pageTitle="Maxime Bonin">
-    <SEO title="About" keywords={["Maxime Bonin", "dev", "developer", "programmer"]} />
+    <SEO
+      title="About"
+      keywords={["Dailyprog", "Maxime Bonin", "dev", "developer", "programmer"]}
+    />
     <p>
-      <strong>SocraticDev</strong> started a career as a Philosophy teacher, but pivoted and became a software developer.</p>
-    <p>As a consultant, he works on large scale information systems. Outside of work, he likes to watch Red Sox baseball while strumming his guitar</p>
-    <p>Homepage : <a href="https://en.maximebonin.dev" rel="noopener noreferrer"  target="_blank" alt="url to home page">https://en.maximebonin.dev </a></p>
+      SocraticDev is{" "}
+      <a
+        href="https://en.maximebonin.dev"
+        rel="noopener noreferrer"
+        target="_blank"
+        alt="link to Maxime Bonin's homepage"
+      >
+        Maxime Bonin{" "}
+      </a>{" "}
+      's nickname on online community{" "}
+      <a
+        href="https://dailyprog.org"
+        rel="noopener noreferrer"
+        target="_blank"
+        alt="link to Dailyprog's website"
+      >
+        Dailyprog
+      </a>
+      .{" "}
+    </p>
+    <p>
+      This webiste is all about me playing with technology and communicating
+      this passion.
+    </p>
+    <p>
+      I'm trying to publish a new post on a weekly basis. While I'm giving
+      freedom to address any subject matter, I mostly talk about tech and
+      philosophy.
+    </p>
   </Layout>
 )
 
