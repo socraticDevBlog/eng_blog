@@ -3,7 +3,7 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 
 const AboutPage = () => (
-  <Layout pageTitle="Maxime Bonin">
+  <Layout pageTitle="What is this blog about ?">
     <SEO
       title="About"
       keywords={["Dailyprog", "Maxime Bonin", "dev", "developer", "programmer"]}
@@ -16,9 +16,9 @@ const AboutPage = () => (
         target="_blank"
         alt="link to Maxime Bonin's homepage"
       >
-        Maxime Bonin{" "}
-      </a>{" "}
-      's nickname on online community{" "}
+        Max{""}
+      </a>
+      's nickname on IRC online community{" "}
       <a
         href="https://dailyprog.org"
         rel="noopener noreferrer"

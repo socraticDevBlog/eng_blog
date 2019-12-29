@@ -26,11 +26,11 @@ I think I can best express the benefits of switching to agile methodology by ref
 
 ##### What are the pitfalls you’ve witnessed about traditional businesses wanting to move to the cloud and devops. What are the usual issues they face ?
 
- (_Ptdel_) For the benefit of everyone, business owners must be able to recognize when there is a genuine impetus to move to a hosted provider. It is extremely hard to justify moving to "the cloud" if a company retains all of it's traditional practices centered around on-premise infrastructure. 
+ (_Ptdel_) For the benefit of everyone, business owners must be able to recognize when there is a genuine impetus to move to a hosted provider. It is extremely hard to justify moving to "the cloud" if a company retains all of its traditional practices centered around on-premise infrastructure. 
  
  I'm going to cop-out and not provide any specific technical pitfalls. Instead, I'll describe an encounter I frequently had during my time as a consultant. We would show up to a company, and there would be a single department in the company that was going to be the guinea pig. They didn't really have any clear-cut requirements, and many of the staff were still beholden to trivial day-to-day routine manual tasks. They would often see the appeal of moving to an agile methodology, only to come to the realization that their finance or security departments made any real attempts at change impossible. Half-way through the project another department would become aware of the endeavor, and seek to take the reigns in some fashion or to expand the scope of the project. By the time the contract had been used up, the scope of the engagement was completely unrecognizable from the original, and nothing had been completed to any satisfactory level. 
  
- This is all a roundabout way of saying there must be buy-in from everyone, and leadership must be the ones communicating this to everyone. If it's a pet project left all to it's own, hopefully the funds behind it are fungible or the loss justifiable.
+ This is all a roundabout way of saying there must be buy-in from everyone, and leadership must be the ones communicating this to everyone. If it's a pet project left all to its own, hopefully the funds behind it are fungible or the loss justifiable.
 
  ##### A lot of devs are mostly concerned with code and having features working in their dev environment. We don’t really know or care to know about delivery pipelines, automation, database security and performance, etc. Do you have suggestions to younger devs who wants to be relevant in 15 to 20 years from now ?
 
