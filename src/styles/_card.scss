@@ -1,6 +1,24 @@
 .card {
   margin-bottom: 30px;
 }
+.card-title {
+  font-size:large;
+}
+.card-subtitle {
+  blockquote {
+    margin: 20px;
+    background-color: #F9F9F9;
+    color: darkblue;
+  }
+  ul {
+    margin: 10px;
+    list-style-type: circle;
+  }
+  li{
+    margin-left:25px;
+    margin:10px;
+  }
+}
 ul.post-tags {
   padding: 0;
   display: inline-flex;
