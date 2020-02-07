@@ -20,7 +20,7 @@ Bruce F. Webster put forward this _anti-pattern_ idea in 2008. Bruce F. Webster 
 
 > What tends to remain behind is the ‘residue’ — the least talented and effective IT engineers. They tend to be grateful they have a job and make fewer demands on management; even if they find the workplace unpleasant, they are the least likely to be able to find a job elsewhere. They tend to entrench themselves, becoming maintenance experts on critical systems, assuming responsibilities that no one else wants so that the organization can’t afford to let them go.
 
-## Toughts provoking in the tech communinity
+## Toughts provoking in the tech community
 
 This explanation casts a wide net and is based on the professional experience of one person: the author himself.
 However, in 2008, when this article appeared on the web, several debates were conducted and
