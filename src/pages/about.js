@@ -6,29 +6,8 @@ const AboutPage = () => (
   <Layout pageTitle="What is this blog about ?">
     <SEO
       title="About"
-      keywords={["Dailyprog", "Maxime Bonin", "dev", "developer", "programmer"]}
+      keywords={["Maxime Bonin", "dev", "developer", "programmer"]}
     />
-    <p>
-      SocraticDev is{" "}
-      <a
-        href="https://en.maximebonin.dev"
-        rel="noopener noreferrer"
-        target="_blank"
-        alt="link to Maxime Bonin's homepage"
-      >
-        Max{""}
-      </a>
-      's nickname on IRC online community{" "}
-      <a
-        href="https://dailyprog.org"
-        rel="noopener noreferrer"
-        target="_blank"
-        alt="link to Dailyprog's website"
-      >
-        Dailyprog
-      </a>
-      .{" "}
-    </p>
     <p>
       This webiste is all about me playing with technology and communicating
       this passion.
