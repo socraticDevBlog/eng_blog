@@ -4,7 +4,6 @@ date: 2019-11-16
 author: "SocraticDev"
 image: ../../images/demarco.jpg
 tags:
-  - metrics
   - technology
 ---
 
