@@ -31,8 +31,7 @@ const Layout = ({ children, pageTitle }) => {
       <div className="container" id="content">
         <h1>{pageTitle}</h1>
         <Row>
-          <Col md="10"><main>{children}</main></Col>
-          <Col md="2"></Col>
+          <Col md="12"><main>{children}</main></Col>
         </Row>
         <Footer />
       </div>
