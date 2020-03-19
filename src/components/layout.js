@@ -6,7 +6,7 @@
  */
 
 import React from "react"
-import {Row, Col} from 'reactstrap'
+import { Row, Col } from "reactstrap"
 import PropTypes from "prop-types"
 import { useStaticQuery, graphql } from "gatsby"
 import Footer from "./footer"
@@ -31,10 +31,14 @@ const Layout = ({ children, pageTitle }) => {
       <div className="container" id="content">
         <h1>{pageTitle}</h1>
         <Row>
-          <Col md="12"><main>{children}</main></Col>
+          <Col md="2"></Col>
+          <Col md="8">
+            <main>{children}</main>
+          </Col>
+          <Col md="2"></Col>
         </Row>
-        <Footer />
       </div>
+      <Footer />
     </>
   )
 }
