@@ -1,6 +1,6 @@
 const { slugify } = require(`./src/util/util-functions.js`)
 const _ = require("lodash")
-const path = require('path')
+const path = require("path")
 
 exports.onCreateNode = ({ node, actions }) => {
   const { createNodeField } = actions
@@ -18,9 +18,10 @@ exports.createPages = ({ actions, graphql }) => {
   const { createPage } = actions
 
   const templates = {
-      singlePost: path.resolve('src/templates/single-post.js'),
-      tagsPage:   path.resolve('src/templates/tags-page.js'),
-      tagPosts:   path.resolve('src/templates/tag-posts.js')
+    singlePost: path.resolve("src/templates/single-post.js"),
+    tagsPage: path.resolve("src/templates/tags-page.js"),
+    tagPosts: path.resolve("src/templates/tag-posts.js"),
+    postsList: path.resolve("src/templates/posts-list.js"),
   }
 
   return graphql(`
@@ -65,24 +66,24 @@ exports.createPages = ({ actions, graphql }) => {
       }
     })
 
-    // créer un dictionnaire : {tag:count, tag2:count}
+    // crÃ©er un dictionnaire : {tag:count, tag2:count}
     //
     let tagPostCounts = {}
     tags.forEach(tag => {
       tagPostCounts[tag] = (tagPostCounts[tag] || 0) + 1
     })
 
-    tags = _.uniq(tags);
+    tags = _.uniq(tags)
 
     // creating tags page
     //
     createPage({
-       path: '/tags',
-       component: templates.tagsPage,
-       context: {
-          tags,
-          tagPostCounts
-       }
+      path: "/tags",
+      component: templates.tagsPage,
+      context: {
+        tags,
+        tagPostCounts,
+      },
     })
 
     // creating tag posts page
@@ -92,8 +93,28 @@ exports.createPages = ({ actions, graphql }) => {
         path: `/tag/${slugify(tag)}`,
         component: templates.tagPosts,
         context: {
-          tag
-        }
+          tag,
+        },
+      })
+    })
+    const postsPerPage = 5
+    const pagesCount = Math.ceil(posts.length / postsPerPage)
+
+    Array.from({ length: pagesCount }).forEach((_, index) => {
+      const isFirstPage = index === 0
+      const currentPage = index + 1
+
+      if (isFirstPage) return
+
+      createPage({
+        path: `/page/${currentPage}`,
+        component: templates.postsList,
+        context: {
+          limit: postsPerPage,
+          skip: index * postsPerPage,
+          currentPage,
+          pagesCount
+        },
       })
     })
   })
