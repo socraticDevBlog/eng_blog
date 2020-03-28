@@ -43,15 +43,15 @@ class Header extends React.Component {
                 <NavLink href="/disclaimer">Disclaimer</NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href="/rss.xml">
+                <NavLink title="subscribe to RSS Feed" href="/rss.xml">
                   RSS
                   <span aria-label="subscription to RSS feed" role="img">💌 </span>
                 </NavLink>
               </NavItem>
 
               <NavItem>
-                <NavLink href="https://socratic.dev">
-                  <span aria-label="visit site in french" role="img">🇫🇷</span>
+                <NavLink href="https://socratic.dev"> 
+                  <span aria-label="visit site in french" title="Vers le site en français" role="img">🇫🇷</span>
                 </NavLink>
               </NavItem>
             </Nav>

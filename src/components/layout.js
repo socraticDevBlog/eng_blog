@@ -13,6 +13,7 @@ import Footer from "./footer"
 
 import Header from "./header"
 import "../styles/index.scss"
+import Logo from "../images/blogue_title_blue.png"
 
 const Layout = ({ children, pageTitle }) => {
   const data = useStaticQuery(graphql`
@@ -29,7 +30,8 @@ const Layout = ({ children, pageTitle }) => {
     <>
       <Header siteTitle={data.site.siteMetadata.title} />
       <div className="container" id="content">
-        <h1>{pageTitle}</h1>
+        <img class="center" src={ Logo } alt="SocraticDev logo"></img>
+        <h3>{pageTitle}</h3>
         <Row>
           <Col md="2"></Col>
           <Col md="8">

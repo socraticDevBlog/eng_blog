@@ -5,7 +5,7 @@ import SEO from "../components/seo"
 import Post from "../components/post"
 
 const IndexPage = () => (
-  <Layout pageTitle= "Main()">
+  <Layout pageTitle= "">
     <SEO title="Main" keywords={["tech blog", "Maxime Bonin", "dev", "developer", "programming", "technology","software engineering"]} />
     <StaticQuery
       query={indexQuery}
