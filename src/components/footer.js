@@ -12,6 +12,7 @@ const Footer = () => (
         <li>
           <a
             className=""
+            title="https://github.com/socraticDevBlog/"
             href="https://github.com/socraticDevBlog/"
             rel="noopener noreferrer"
             target="_blank"
@@ -27,6 +28,7 @@ const Footer = () => (
         <li>
           <a
             className=""
+            title="https://www.linkedin.com/in/boninmaxime/?locale=en_US"
             href="https://www.linkedin.com/in/boninmaxime/?locale=en_US"
             rel="noopener noreferrer"
             target="_blank"
@@ -42,6 +44,7 @@ const Footer = () => (
         <li>
           <a
             className=""
+            title="https://twitter.com/socraticdevblog"
             href="https://twitter.com/socraticdevblog"
             rel="noopener noreferrer"
             target="_blank"
@@ -57,6 +60,7 @@ const Footer = () => (
         <li>
           <a
             className=""
+            title="https://en.maximebonin.dev"
             href="https://en.maximebonin.dev"
             rel="noopener noreferrer"
             target="_blank"
