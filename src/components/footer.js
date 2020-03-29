@@ -29,8 +29,8 @@ const Footer = () => (
         <li>
           <a
             className=""
-            title="gitlab.com/socraticdev/"
-            href="gitlab.com/socraticdev/"
+            title="https://gitlab.com/socraticdev/"
+            href="https://gitlab.com/socraticdev/"
             rel="noopener noreferrer"
             target="_blank"
             alt="url to my gitLab page"
