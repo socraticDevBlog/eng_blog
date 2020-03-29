@@ -2,7 +2,8 @@ import React from "react"
 import TwitterLogo from "../images/twitter.png"
 import LinkedinLogo from "../images/linkedin.png"
 import GithubLogo from "../images/github.png"
-import LuckylukeLogo from "../images/icon.png"
+import GitlabLogo from "../images/gitlab.png"
+import MaxHomepageLogo from "../images/homepage.png"
 
 const Footer = () => (
   <div className="site-footer">
@@ -21,6 +22,22 @@ const Footer = () => (
             <img
               src={GithubLogo}
               alt="github logo"
+              className="socialMediaLogo"
+            ></img>
+          </a>
+        </li>
+        <li>
+          <a
+            className=""
+            title="gitlab.com/socraticdev/"
+            href="gitlab.com/socraticdev/"
+            rel="noopener noreferrer"
+            target="_blank"
+            alt="url to my gitLab page"
+          >
+            <img
+              src={GitlabLogo}
+              alt="gitlab logo"
               className="socialMediaLogo"
             ></img>
           </a>
@@ -67,8 +84,8 @@ const Footer = () => (
             alt="url to my personal homepage"
           >
             <img
-              src={LuckylukeLogo}
-              alt="Lucky Luke logo"
+              src={MaxHomepageLogo}
+              alt="Max Homepage logo"
               className="socialMediaLogo"
             ></img>
           </a>
