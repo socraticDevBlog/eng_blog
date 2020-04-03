@@ -62,7 +62,7 @@ const indexQuery = graphql`
         node {
           frontmatter {
             author
-            date(formatString: "dddd Do MMMM YYYY", locale: "fr")
+            date(formatString: "dddd MMMM Do YYYY", locale: "en")
             title
             tags
             image {
