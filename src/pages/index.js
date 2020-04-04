@@ -11,7 +11,7 @@ const IndexPage = () => {
   return (
     <Layout pageTitle="">
       <SEO
-        title="Accueil"
+        title="Home"
         keywords={[
           "Maxime Bonin",
           "developer",
