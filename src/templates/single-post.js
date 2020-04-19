@@ -29,7 +29,7 @@ const SinglePost = ({ data }) => {
               {post.tags.map(tag => (
                 <li key={tag}>
                   <Link to={`/tag/${slugify(tag)}`}>
-                    <Badge color="primary">{tag}</Badge>
+                    <Badge pill color="primary">{tag}</Badge>
                   </Link>
                 </li>
               ))}

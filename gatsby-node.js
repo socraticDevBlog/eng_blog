@@ -1,4 +1,4 @@
-const { slugify } = require(`./src/util/util-functions.js`)
+const { tagsSorted, slugify } = require(`./src/util/util-functions.js`)
 const _ = require("lodash")
 const path = require("path")
 
@@ -66,14 +66,12 @@ exports.createPages = ({ actions, graphql }) => {
       }
     })
 
-    // crÃ©er un dictionnaire : {tag:count, tag2:count}
-    //
     let tagPostCounts = {}
     tags.forEach(tag => {
       tagPostCounts[tag] = (tagPostCounts[tag] || 0) + 1
     })
 
-    tags = _.uniq(tags)
+    tags = tagsSorted(tagPostCounts)
 
     // creating tags page
     //

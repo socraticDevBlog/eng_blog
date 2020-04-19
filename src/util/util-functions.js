@@ -1,3 +1,19 @@
+const tagsSorted = function(dict) {
+  let keys = Object.keys(dict);
+
+  for (var i = keys.length; i >= 0; i--) {
+    for (var j = keys.length; j > 0; j--) {
+      if (dict[keys[i]] < dict[keys[j]]) {
+        let temp = keys[j];
+        keys[j] = keys[i];
+        keys[i] = temp;
+      }
+    }
+  }
+
+  return keys;
+}
+
 const slugify = function(text) {
   var lowercasedstring = text.toString().toLowerCase(); 
 
@@ -14,4 +30,4 @@ const slugify = function(text) {
      .replace(/-+$/, '') 		    // Trim - from end of text
  }
 
- module.exports = { slugify }
+ module.exports = { tagsSorted, slugify }
