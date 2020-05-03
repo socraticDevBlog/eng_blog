@@ -1,6 +1,6 @@
 ---
 title: Having a sucessful side-project
-date: 2020-04-19
+date: 2020-05-03
 author: "SocraticDev"
 image: ../../images/sideproject.jpg
 tags:
