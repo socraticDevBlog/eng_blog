@@ -19,7 +19,7 @@
     "gatsby-source-filesystem": "^2.2.5",
     "gatsby-transformer-remark": "^2.7.5",
     "gatsby-transformer-sharp": "^2.4.7",
-    "node-sass": "^4.14.0",
+    "node-sass": "^4.14.1",
     "prop-types": "^15.7.2",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
@@ -44,9 +44,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/gatsbyjs/gatsby-starter-default"
+    "url": "https://github.com/socraticDevBlog/eng_blog"
   },
   "bugs": {
-    "url": "https://github.com/gatsbyjs/gatsby/issues"
+    "url": "https://github.com/socraticDevBlog/eng_blog/issues"
   }
 }
