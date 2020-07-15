@@ -34,8 +34,8 @@ class Header extends React.Component {
             <img
               class="mr-2"
               src={Logo}
-              width="35"
-              height="35"
+              width="30"
+              height="30"
               alt="head logo"
             />
             {this.props.siteTitle}
