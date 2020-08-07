@@ -1,13 +1,13 @@
-import React from "react"
-import { graphql, StaticQuery } from "gatsby"
-import Layout from "../components/layout"
-import SEO from "../components/seo"
-import Post from "../components/post"
-import PageLinks from "../components/page-links"
+import React from "react";
+import { graphql, StaticQuery } from "gatsby";
+import Layout from "../components/layout";
+import SEO from "../components/seo";
+import Post from "../components/post";
+import PageLinks from "../components/page-links";
 
 const IndexPage = () => {
-  const postsPerPage = 5
-  let numberOfPages
+  const postsPerPage = 5;
+  let numberOfPages;
   return (
     <Layout pageTitle="">
       <SEO
