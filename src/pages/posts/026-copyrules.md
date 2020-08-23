@@ -7,7 +7,7 @@ tags:
   - fun
 ---
 
-I find ``Rule 4`` very inspiring!
+I find ``Rule 4`` to be inspiring!
 
 # CopyRules
 Copy engineering rules for programmers:D
@@ -51,4 +51,4 @@ Always trust copy! When you copy something working and its not work after copyin
 
 ##### Source : 
 
-[Vahid Kharazi - ](https://github.com/kharazi/awesome-copy-rules)
+[Vahid Kharazi "awesome-copy-rules"](https://github.com/kharazi/awesome-copy-rules)
