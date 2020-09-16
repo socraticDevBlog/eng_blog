@@ -12,7 +12,7 @@ Youth always had its own private language. In my younger days, I remember moving
 
 And they couldn't care less.
 
-> "Is it because the witness expresses himself so badly? There is different explanation. It's not because, uneasy, he poorly expresses himself that you don't understand him; it is because you won't understand him that he expresses himself so poorly."
+> "Is it because the witness expresses himself so badly? There is another explanation. It's not because, uneasy, he poorly expresses himself that you don't understand him; it is because you won't understand him that he expresses himself so poorly."
 > <cite>-- Elie Wiesel, foreword to "Night"(1960)</cite>
 
 - ___zoomer___: "Refers to members of Generation Z and is a play on the term "Boomer," which refers to members of the Baby Boomer generation. The term Zoomer is also in reference to the fast-paced upbringings members of Generation Z are characterized to have due to the fast advances in technology and culture that has been happening around them as a result of the interconnectivity of the American and Global populations because of the ubiquity of internet-connected smart phones and social media."
