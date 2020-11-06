@@ -6,10 +6,10 @@ const AboutPage = () => (
   <Layout pageTitle="What is this blog about ?">
     <SEO
       title="About"
-      keywords={["Maxime Bonin", "dev", "developer", "programmer"]}
+      keywords={["Maxime Bonin", "dev", "developer", "programmer", "linux", "open source", "technology"]}
     />
     <p>
-      This webiste is all about me playing with technology and communicating
+      This website is all about me playing with technology and communicating
       this passion.
     </p>
     <p>
