@@ -54,7 +54,7 @@ module.exports = {
               }
             `,
             output: "/rss.xml",
-            title: "Feed RSS pour SocraticDev blog",
+            title: "SocraticDev's blog rss feed",
           },
         ],
       },
