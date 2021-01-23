@@ -1,7 +1,6 @@
 import PropTypes from "prop-types"
 import React from "react"
 import Logo from "../images/head.svg"
-import Rss from "../images/rss-icon.svg"
 
 import {
   Collapse,
@@ -61,7 +60,7 @@ class Header extends React.Component {
               </NavItem>
               <NavItem>
                 <NavLink href="/rss.xml" title="Subscribe to RSS feed">
-                  <img src={Rss} alt="RSS logo icon" class="header-icon"></img>
+                  RSS
                 </NavLink>
               </NavItem>
 
@@ -71,13 +70,7 @@ class Header extends React.Component {
                   title="Vers le site en français"
                   id="lang-toggle-icon"
                 >
-                  <span
-                    aria-label="visit site in french"
-                    title="Vers le site en français"
-                    role="img"
-                  >
-                    🇫🇷
-                  </span>
+                  en français
                 </NavLink>
               </NavItem>
             </Nav>
