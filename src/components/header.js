@@ -44,23 +44,23 @@ class Header extends React.Component {
           <Collapse isOpen={this.state.isOpen} navbar>
             <Nav className="ml-auto" navbar>
               <NavItem>
-                <NavLink href="/about" title="About">
-                  About
+                <NavLink href="/about" title="about">
+                  about
                 </NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href="/tags" title="Topics">
-                  Topics
+                <NavLink href="/tags" title="topics">
+                  topics
                 </NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href="/disclaimer" title="Disclaimer">
-                  Disclaimer
+                <NavLink href="/disclaimer" title="disclaimer">
+                  disclaimer
                 </NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href="/rss.xml" title="Subscribe to RSS feed">
-                  RSS
+                <NavLink href="/rss.xml" title="subscribe to RSS feed">
+                  rss
                 </NavLink>
               </NavItem>
 
@@ -70,7 +70,7 @@ class Header extends React.Component {
                   title="Vers le site en français"
                   id="lang-toggle-icon"
                 >
-                  en français
+                  français
                 </NavLink>
               </NavItem>
             </Nav>
