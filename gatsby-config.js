@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `SocraticDev's Blog`,
+    title: `socraticDev's blog`,
     description: `Talking about Technology, Philosophy and everything interesting`,
     author: `Maxime Bonin`,
     siteUrl: `https://en.socratic.dev`,
