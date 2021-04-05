@@ -19,13 +19,13 @@ According to Alex Kipman, technical fellow at `Microsoft` who had presented the 
 
 US military intends to equip its foot soldiers with the device in training, rehearsing and actual fight settings.
 
-A fraction of `Microsoft`workforce, **Microsoft Workers 4 Good**, opposes the project stating they didn't sign up to build lethal weapon systems for the military. In a public letter they added these features to the new AR device :
+A fraction of `Microsoft` workforce, **Microsoft Workers 4 Good**, opposes the project stating they didn't sign up to build lethal weapon systems for the military. In a public letter they added another feature to the new AR device :
 
 - increased lethality
 
 > The application of HoloLens within the IVAS system is designed to help people kill. It will be deployed on the battlefield, and works by turning warfare into a simulated "video game", further distancing soldiers from the grim stakes of war and the reality of bloodshed.
 
-On the other hand, proponents of the system claims, on the other hand, the system will help save lives by providing better training and information for soldiers to stay safe and prevent the killing of civilians.
+On the other hand, proponents of the system claims the system will help save lives by providing better training and information for soldiers to stay safe and prevent the killing of civilians.
 
 `Microsoft` CEO, Satya Nadella, stated that the Redmond giant will not 'withhold technology' from democratic governements.
 
