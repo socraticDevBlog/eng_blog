@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `SocraticDev's Blog`,
+    title: `socraticDev's blog`,
     description: `Talking about Technology, Philosophy and everything interesting`,
     author: `Maxime Bonin`,
     siteUrl: `https://en.socratic.dev`,
@@ -54,7 +54,7 @@ module.exports = {
               }
             `,
             output: "/rss.xml",
-            title: "Feed RSS pour SocraticDev blog",
+            title: "SocraticDev's blog rss feed",
           },
         ],
       },
@@ -73,7 +73,7 @@ module.exports = {
       resolve: `gatsby-plugin-gtag`,
       options: {
         // your google analytics tracking id
-        trackingId: `UA-154676737-1`,
+        trackingId: `UA-154676737-2`,
         // Puts tracking script in the head instead of the body
         head: true,
         // enable ip anonymization

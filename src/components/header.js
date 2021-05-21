@@ -44,26 +44,23 @@ class Header extends React.Component {
           <Collapse isOpen={this.state.isOpen} navbar>
             <Nav className="ml-auto" navbar>
               <NavItem>
-                <NavLink href="/about" title="About">
-                  About
+                <NavLink href="/about" title="about">
+                  about
                 </NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href="/tags" title="Topics">
-                  Topics
+                <NavLink href="/tags" title="topics">
+                  topics
                 </NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href="/disclaimer" title="Disclaimer">
-                  Disclaimer
+                <NavLink href="/disclaimer" title="disclaimer">
+                  disclaimer
                 </NavLink>
               </NavItem>
               <NavItem>
-                <NavLink title="subscribe to RSS Feed" href="/rss.xml">
-                  RSS
-                  <span aria-label="subscription to RSS feed" role="img">
-                    💌{" "}
-                  </span>
+                <NavLink href="/rss.xml" title="subscribe to RSS feed">
+                  rss
                 </NavLink>
               </NavItem>
 
@@ -71,14 +68,9 @@ class Header extends React.Component {
                 <NavLink
                   href="https://socratic.dev"
                   title="Vers le site en français"
+                  id="lang-toggle-icon"
                 >
-                  <span
-                    aria-label="visit site in french"
-                    title="Vers le site en français"
-                    role="img"
-                  >
-                    🇫🇷
-                  </span>
+                  français
                 </NavLink>
               </NavItem>
             </Nav>
