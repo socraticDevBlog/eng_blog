@@ -1,6 +1,6 @@
 ---
 title: "Zoomers are talking: can you understand them?"
-date: 2020-09-16
+date: 2021-05-21
 author: "SocraticDev"
 image: ../../images/vocabulary-zoomer.jpg
 tags:
@@ -14,6 +14,8 @@ And they couldn't care less.
 
 > "Is it because the witness expresses himself so badly? There is another explanation. It's not because, uneasy, he poorly expresses himself that you don't understand him; it is because you won't understand him that he expresses himself so poorly."
 > <cite>-- Elie Wiesel, foreword to "Night"(1960)</cite>
+
+- __yeet__: "Yeet is an exclamation of excitement, approval, surprise, or all-around energy, often as issued when doing a dance move or throwing something."
 
 - ___zoomer___: "Refers to members of Generation Z and is a play on the term "Boomer," which refers to members of the Baby Boomer generation. The term Zoomer is also in reference to the fast-paced upbringings members of Generation Z are characterized to have due to the fast advances in technology and culture that has been happening around them as a result of the interconnectivity of the American and Global populations because of the ubiquity of internet-connected smart phones and social media."
 
