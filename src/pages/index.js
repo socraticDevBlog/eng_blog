@@ -1,15 +1,22 @@
-import React from "react";
-import { graphql, StaticQuery } from "gatsby";
-import Layout from "../components/layout";
-import SEO from "../components/seo";
-import Post from "../components/post";
-import PageLinks from "../components/page-links";
+import React from "react"
+import { graphql, StaticQuery } from "gatsby"
+import Layout from "../components/layout"
+import SEO from "../components/seo"
+import Post from "../components/post"
+import PageLinks from "../components/page-links"
+import { Helmet } from "react-helmet"
 
 const IndexPage = () => {
-  const postsPerPage = 5;
-  let numberOfPages;
+  const postsPerPage = 5
+  let numberOfPages
   return (
     <Layout pageTitle="">
+      <Helmet>
+        <meta
+          name="description"
+          content="That philosophical and technological blog by Maxime Bonin, a canadian developer. For a fruitful career. Content is labelled by keywords such as Growth, Productivity, Programming, Technology, etc."
+        />
+      </Helmet>
       <SEO
         title="Home"
         keywords={[
@@ -24,7 +31,7 @@ const IndexPage = () => {
       />
       <StaticQuery
         query={indexQuery}
-        render={data => {
+        render={(data) => {
           numberOfPages = Math.ceil(
             data.allMarkdownRemark.totalCount / postsPerPage
           )
