@@ -88,6 +88,7 @@ export const postQuery = graphql`
   query bloPostBySlug($slug: String!) {
     markdownRemark(fields: { slug: { eq: $slug } }) {
       id
+      excerpt
       html
       fields {
         slug
