@@ -1,19 +1,21 @@
 ---
 title: "Zoomers are talking: can you understand them?"
-date: 2021-05-21
+date: 2021-08-28
 author: "SocraticDev"
 image: ../../images/vocabulary-zoomer.jpg
 tags:
 - fun
 - growth
 ---
-
+(updated with new word: __poggers__)  
 Youth always had its own private language. In my younger days, I remember moving to a new city and discovering kids my age used an array of unknown expressions to me. Quick! Better learn them fast. A common language defines a community and offers a feeling of belonging. Nowadays the community is global and youth shares thru Internet a common idiom older folks don't understand. 
 
 And they couldn't care less.
 
 > "Is it because the witness expresses himself so badly? There is another explanation. It's not because, uneasy, he poorly expresses himself that you don't understand him; it is because you won't understand him that he expresses himself so poorly."
 > <cite>-- Elie Wiesel, foreword to "Night"(1960)</cite>
+
+- __poggers__: "poggers refers to a specific emoticon available on Twitch which depicts a surprised-looking Pepe the Frog. The word “poggers” is used to express excitement during a game when something exciting occurs." Once can use this word instead of __based__.
 
 - __yeet__: "Yeet is an exclamation of excitement, approval, surprise, or all-around energy, often as issued when doing a dance move or throwing something."
 
