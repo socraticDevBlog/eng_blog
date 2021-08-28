@@ -15,7 +15,7 @@ And they couldn't care less.
 > "Is it because the witness expresses himself so badly? There is another explanation. It's not because, uneasy, he poorly expresses himself that you don't understand him; it is because you won't understand him that he expresses himself so poorly."
 > <cite>-- Elie Wiesel, foreword to "Night"(1960)</cite>
 
-- __poggers__: "poggers refers to a specific emoticon available on Twitch which depicts a surprised-looking Pepe the Frog. The word “poggers” is used to express excitement during a game when something exciting occurs." Once can use this word instead of __based__.
+- __poggers__: "poggers refers to a specific emoticon available on Twitch which depicts a surprised-looking Pepe the Frog. The word “poggers” is used to express excitement during a game when something exciting occurs." You can use this word instead of __based__.
 
 - __yeet__: "Yeet is an exclamation of excitement, approval, surprise, or all-around energy, often as issued when doing a dance move or throwing something."
 
