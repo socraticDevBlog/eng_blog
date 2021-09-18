@@ -8,6 +8,9 @@ tags:
   - terraform
   - foss
 ---
+`UPDATE (2021-09-18): publishing projects as 'Packages' via GitLab's Registry is a more viable option than using ssh to access foreign repository` 
+
+
 Open source projects dedicate extra care to make their product easy to be consumed by other projects. Using external frameworks and libraries enables small teams to focus on adding value to products instead of spending time on the piping.
 
 A new trend among organizations is adopting Open source philosophy for their closed source codebase : 
