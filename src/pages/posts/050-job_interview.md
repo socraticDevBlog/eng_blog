@@ -1,6 +1,6 @@
 ---
 title: "Petit guide du parfait chercheur d'emploi"
-date: 2022-02-15
+date: 2022-02-20
 author: "SocraticDev"
 image: ../../images/interview-banner.png
 tags:
