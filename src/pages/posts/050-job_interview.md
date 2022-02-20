@@ -1,5 +1,5 @@
 ---
-title: "Petit guide du parfait chercheur d'emploi"
+title: "A short guide to the perfect job seeker"
 date: 2022-02-20
 author: "SocraticDev"
 image: ../../images/interview-banner.png
