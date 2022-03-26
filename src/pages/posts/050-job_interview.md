@@ -4,8 +4,8 @@ date: 2022-02-20
 author: "SocraticDev"
 image: ../../images/interview-banner.png
 tags:
-  - carrière
-  - croissance
+  - career
+  - growth
 ---
 
 Employers go to great lengths to ensure a perfect match in the recruitment process. But what about job seekers?
