@@ -37,6 +37,22 @@ To me, from the get go, it's an awesome solution to a common real life programmi
 
 >Operationally, a closure is a record storing a function[a] together with an environment.[1] The environment is a mapping associating each free variable of the function (variables that are used locally, but defined in an enclosing scope) with the value or reference to which the name was bound when the closure was created.[b] Unlike a plain function, a closure allows the function to access those captured variables through the closure's copies of their values or references, even when the function is invoked outside their scope. (Wikipedia, "closure")
 
+### example of leveraging closure
+```
+function createScaleFunction(FACTOR) {
+  return function(v) {
+    return _.map(v, function(n) {
+      return (n * FACTOR);
+    });
+  };
+}
+
+var scale10 = createScaleFunction(10);
+
+scale10([1,2,3]);
+//=> [10, 20, 30]
+```
+
 ## learnings
 
 Digging into functional programming I discover a lot about my lack of understanding into some programming language (especially `JavaScript`) basic fonctions such as variable binding and scoping. I'm also learning to understand about functions chaining. Which was/is a big pet peeve of mine: it's not fun debugging function chains. No??
