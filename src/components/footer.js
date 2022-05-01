@@ -45,22 +45,6 @@ const Footer = () => (
         <li>
           <a
             className=""
-            title="https://www.linkedin.com/in/boninmaxime/?locale=en_US"
-            href="https://www.linkedin.com/in/boninmaxime/?locale=en_US"
-            rel="noopener noreferrer"
-            target="_blank"
-            alt="url to my LinkedIn page"
-          >
-            <img
-              src={LinkedinLogo}
-              alt="linkedIn logo"
-              className="google"
-            ></img>
-          </a>
-        </li>
-        <li>
-          <a
-            className=""
             title="https://twitter.com/socraticdevblog"
             href="https://twitter.com/socraticdevblog"
             rel="noopener noreferrer"
@@ -70,22 +54,6 @@ const Footer = () => (
             <img
               src={TwitterLogo}
               alt="twitter logo"
-              className="socialMediaLogo"
-            ></img>
-          </a>
-        </li>
-        <li>
-          <a
-            className=""
-            title="https://en.maximebonin.dev"
-            href="https://en.maximebonin.dev"
-            rel="noopener noreferrer"
-            target="_blank"
-            alt="url to my personal homepage"
-          >
-            <img
-              src={MaxHomepageLogo}
-              alt="Max Homepage logo"
               className="socialMediaLogo"
             ></img>
           </a>
