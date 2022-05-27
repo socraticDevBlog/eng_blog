@@ -1,9 +1,7 @@
 import React from "react"
 import TwitterLogo from "../images/twitter.png"
-import LinkedinLogo from "../images/linkedin.png"
 import GithubLogo from "../images/github.png"
 import GitlabLogo from "../images/gitlab.png"
-import MaxHomepageLogo from "../images/homepage.png"
 
 const Footer = () => (
   <div className="site-footer">
