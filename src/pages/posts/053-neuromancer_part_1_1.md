@@ -7,6 +7,7 @@ tags:
   - novel
   - technology
 ---
+(updated thursday 2022-05-09 by adding chapter 4 summary)
 
 ## chapter 3 (part 2 - The shopping expedition)
 By the end of chapter 3, Case would have connected to cyberspace, to the Matrix.
@@ -42,3 +43,35 @@ Armitage explains that, during surgery, fifteen toxin sacs containing a mycotoxi
 Only after the end of this mission would Armitage provide a remedy to this predicament.
 
 Case is held hostage to this new dependency.
+
+## chapter 4 - the heist
+
+In chapter 4, the duo Case and Molly enters into action by setting up and executing a heist in Sense/net building. Case immersed himself in the Matrix for a good 9 days, but the action is considerably shortened into a tight chapter. Armitage mission was getting hold of Dixie Flatline: a 'construct' stored into the library of Sense/net building. 
+
+> A construct is "A ROM recording of a personality which allows for a reconstruction of that person."
+
+Case remained in the loft hooked to his Sendai and SimStim. A SimStim is a way to embody another person; to feel his sensations. Case embodied Molly who moved thru the Sprawl to prepare and execute the heist. He can feel what she feels, sees what she sees. But cannot communicate with her; tell her what to do.
+
+For 9 days, he stayed in the cyberspace or into Molly's skin.
+
+At an electronic marketplace, Molly met with Larry. A shady personage who put her in touch with the _Panther Moderns_. 
+
+> The _Moderns_ are "a global group of teenage hackers and pranksters, who can be purchased by outside groups." 
+ 
+They will assist Molly creating chaos at the Sense/net building in order to steal the construct of Dixie Flatline. A notable trait of the _Moderns_ is their camouflage suits; they can blend with the surrounding like chameleons!
+
+Molly got badly hurt during the heist. To escape the building, she had to numb her pain with endorphines. Then she went under surgery.
+
+Back to the loft, Armitage received the construct from Yonderboy (the leader of the Panther Moderns) against a thick stack of money as payment.
+
+Younderboy tells Armitage why he wouldn't count the money:
+
+>"You'll pay. You're a Mr. Who. You pay to stay one. Not a Mr. Name."
+
+Despite this, Yonderboy delivers a message to Case. A name.
+
+Wintermute.
+
+##### source
+
+[https://www.litcharts.com/lit/neuromancer/terms/construct](https://www.litcharts.com/lit/neuromancer/terms/construct)
