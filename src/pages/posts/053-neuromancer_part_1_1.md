@@ -72,6 +72,59 @@ Despite this, Yonderboy delivers a message to Case. A name.
 
 Wintermute.
 
+## chapter 5 - Tessier-Ashpool
+
+We will learn more about the power behind the operation for which Case has been
+hired in chapter 5.
+
+### Tessier-Ashpool
+Molly had commissioned the _Panther Moderns_ to investigate about Armitage.
+After the heist, its leader Younderboy presented Case with the answer:
+WINTERMUTE. Back to New Yor, Case and Molly visit the Finn to continue their clandestine
+investigation about Armitage. 
+
+> "Wintermute is an artificial intelligence. Based in Berne, it has swiss
+> citizenship. Wintermute is running Armitage, but, because AIs aren't allowed
+> autonomy, both Molly and the Finn assume it's Wintermute's owners,
+> Tessier-Ashpool S.A., who owns the mainframe and software, who are pulling
+> Armitage's strings."
+
+Tessier-Ashpool S.A. is a law firm, a shell corporation set up to represent and
+protect the interests of the Tessier-Ashpool family. This family owns
+_Freeside_: "An enormous space colony in orbit above earth". 
+
+This family is composed of dead family members who are frozen and brought back
+to life in alternance to manage the family affairs.
+
+### Dixie-Flatline
+
+Back to the loft, Case connects to Dixie Flatline. He notices the construct
+doesn't have any short term memory. It is a ROM. It is a finite collection of memories.
+Dixie was Case's mentor when he started his career. His memories are useful to
+Case to learn new informations about the Matrix... and Armitage.
+
+> "Read Only Memory. A type of computer storage that is more or less
+> unchangeable. The construct of Dixie, for example, is ROM—his personality is
+> already fixed and cannot be developed. Contrast with RAM."
+
+## chapter 6 - Armitage
+
+Plugged into Dixie Flatline, Case digs into Armitage's past. He discovers
+Armitage was colonel Willis Corto. Corto was sent by America to attack Russia
+in an operation called "Screaming Fist". Basically, it was a death trap because
+America new that Russia had the power to defend themselves.
+
+Long story short, colonel Corto was disfigured and severly maimed. He testified
+before Congress about the betrayal. After this, he was involved in random
+missions, such as contract killings. Finally, he was involved with a crime in
+France, ended up in a psychiatric hospital with a schizophrenia diagnosis.
+
+He was cured by an experimental therapy, disappeared, and now he is Armitage.
+
+At the end of chapter 6, Armitage calls to announce they are going to Istanbul.
+
 ##### source
 
-[https://www.litcharts.com/lit/neuromancer/terms/construct](https://www.litcharts.com/lit/neuromancer/terms/construct)
+- [https://www.litcharts.com/lit/neuromancer/terms/construct](https://www.litcharts.com/lit/neuromancer/terms/construct)
+- [https://www.litcharts.com/lit/neuromancer/chapter-5](https://www.litcharts.com/lit/neuromancer/chapter-5)
+- [https://www.litcharts.com/lit/neuromancer/chapter-6](https://www.litcharts.com/lit/neuromancer/chapter-6)
