@@ -7,7 +7,7 @@ tags:
   - novel
   - technology
 ---
-(updated thursday 2022-05-09 by adding chapter 4 summary)
+(last updated: tuesday 2022-05-14)
 
 ## chapter 3 (part 2 - The shopping expedition)
 By the end of chapter 3, Case would have connected to cyberspace, to the Matrix.
@@ -46,19 +46,23 @@ Case is held hostage to this new dependency.
 
 ## chapter 4 - the heist
 
-In chapter 4, the duo Case and Molly enters into action by setting up and executing a heist in Sense/net building. Case immersed himself in the Matrix for a good 9 days, but the action is considerably shortened into a tight chapter. Armitage mission was getting hold of Dixie Flatline: a 'construct' stored into the library of Sense/net building. 
+In chapter 4, the duo enters action by setting up and executing a heist in
+Sense/net building. Case immersed himself in the Matrix for a good 9 days, but
+the action is considerably shortened into a tight chapter. Armitage mission was
+getting hold of Dixie Flatline: a 'construct' stored in the Sense/net
+building's library. 
 
 > A construct is "A ROM recording of a personality which allows for a reconstruction of that person."
 
 Case remained in the loft hooked to his Sendai and SimStim. A SimStim is a way to embody another person; to feel his sensations. Case embodied Molly who moved thru the Sprawl to prepare and execute the heist. He can feel what she feels, sees what she sees. But cannot communicate with her; tell her what to do.
 
-For 9 days, he stayed in the cyberspace or into Molly's skin.
+For 9 days, he stayed in the cyberspace or under Molly's skin.
 
 At an electronic marketplace, Molly met with Larry. A shady personage who put her in touch with the _Panther Moderns_. 
 
-> The _Moderns_ are "a global group of teenage hackers and pranksters, who can be purchased by outside groups." 
+> The _Moderns_ is "a global group of teenage hackers and pranksters, who can be purchased by outside groups." 
  
-They will assist Molly creating chaos at the Sense/net building in order to steal the construct of Dixie Flatline. A notable trait of the _Moderns_ is their camouflage suits; they can blend with the surrounding like chameleons!
+They will assist Molly creating chaos at the Sense/net building in order to steal the construct of Dixie Flatline. A notable trait of the _Moderns_ is their camouflage suits; they can blend with their surroundings like chameleons!
 
 Molly got badly hurt during the heist. To escape the building, she had to numb her pain with endorphines. Then she went under surgery.
 
@@ -78,10 +82,10 @@ We will learn more about the power behind the operation for which Case has been
 hired in chapter 5.
 
 ### Tessier-Ashpool
-Molly had commissioned the _Panther Moderns_ to investigate about Armitage.
+Molly had commissioned the _Panther Moderns_ to investigate Armitage.
 After the heist, its leader Younderboy presented Case with the answer:
-WINTERMUTE. Back to New Yor, Case and Molly visit the Finn to continue their clandestine
-investigation about Armitage. 
+WINTERMUTE. Back to New York, Case and Molly visit the Finn to continue their clandestine
+investigation on Armitage. 
 
 > "Wintermute is an artificial intelligence. Based in Berne, it has swiss
 > citizenship. Wintermute is running Armitage, but, because AIs aren't allowed
@@ -101,7 +105,7 @@ to life in alternance to manage the family affairs.
 Back to the loft, Case connects to Dixie Flatline. He notices the construct
 doesn't have any short term memory. It is a ROM. It is a finite collection of memories.
 Dixie was Case's mentor when he started his career. His memories are useful to
-Case to learn new informations about the Matrix... and Armitage.
+Case to learn new informations about the Matrix and Armitage.
 
 > "Read Only Memory. A type of computer storage that is more or less
 > unchangeable. The construct of Dixie, for example, is ROM—his personality is
@@ -110,20 +114,20 @@ Case to learn new informations about the Matrix... and Armitage.
 ## chapter 6 - Armitage
 
 Plugged into Dixie Flatline, Case digs into Armitage's past. He discovers
-Armitage was colonel Willis Corto. Corto was sent by America to attack Russia
-in an operation called "Screaming Fist". Basically, it was a death trap because
-America new that Russia had the power to defend themselves.
+Armitage was colonel Willis Corto. USA had sent Corto and his crew to attack Russia
+in an operation called "Screaming Fist". It was basically a death trap because
+it was known that Russia had the power to defend themselves against this attack.
 
 Long story short, colonel Corto was disfigured and severly maimed. He testified
 before Congress about the betrayal. After this, he was involved in random
-missions, such as contract killings. Finally, he was involved with a crime in
-France, ended up in a psychiatric hospital with a schizophrenia diagnosis.
+missions, such as contract killings. Finally involved with a crime in
+France, he ended up in a psychiatric hospital with a schizophrenia diagnosis.
 
 He was cured by an experimental therapy, disappeared, and now he is Armitage.
 
 At the end of chapter 6, Armitage calls to announce they are going to Istanbul.
 
-##### source
+##### sources
 
 - [https://www.litcharts.com/lit/neuromancer/terms/construct](https://www.litcharts.com/lit/neuromancer/terms/construct)
 - [https://www.litcharts.com/lit/neuromancer/chapter-5](https://www.litcharts.com/lit/neuromancer/chapter-5)
