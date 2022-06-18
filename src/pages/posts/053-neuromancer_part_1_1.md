@@ -7,7 +7,7 @@ tags:
   - novel
   - technology
 ---
-(last updated: tuesday 2022-05-14)
+(last updated: friday 2022-06-17)
 
 ## chapter 3 (part 2 - The shopping expedition)
 By the end of chapter 3, Case would have connected to cyberspace, to the Matrix.
@@ -126,6 +126,28 @@ France, he ended up in a psychiatric hospital with a schizophrenia diagnosis.
 He was cured by an experimental therapy, disappeared, and now he is Armitage.
 
 At the end of chapter 6, Armitage calls to announce they are going to Istanbul.
+
+## chapter 7 - Riviera
+
+The Finn, Case and Molly meet again in Istanbul for a kidnapping mission. 
+
+Their target is Riviera. Riviera has a specific skill. He can project lifelike hologram; create
+illusion and hallucination in others. How? He got one lung replaced by implants
+that give him this power.
+
+Helped by a local "guide", Terzibashjian, they captured him in a
+market while he was out at the market to purchase his drugs.
+
+Armitage tells them to pack for their next destination: the Freeside.
+
+> "An enormous space colony in orbit above earth. Home to, among other 
+> institutions, the Villa Straylight and the Tessier-Ashpool family."
+
+At the end of the second part, Wintermute reaches out to Case by making pay
+phone rings: "Hello Case... Wintermute, Case. It's time to talk.[...] Don't you
+want to talk, Case?".
+
+_End of second part_
 
 ##### sources
 
