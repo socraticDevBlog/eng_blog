@@ -7,7 +7,7 @@ tags:
   - novel
   - technology
 ---
-(updated: friday june 24th - adding chapters 9 and 10)
+(final update: friday july 1st)
 
 # Part three - Midnight in the rue Jules-Verne
 
@@ -91,3 +91,50 @@ Before returning to the hotel, Case gets hold of stimulant drugs that can
 bypass his new pancreas filter. He gets really high and, back at the hotel,
 Molly is very disapointed. She warns him of the aftermath of such a drug strong
 enough to bypass his pancreas blockers.
+
+## Chapter 11 - focus on Riviera and Molly
+
+Case woke up with a hangover. Molly and Armitage noticed his recent excess. But
+Case tries to hide it and blames an allergic reaction to the unusual food
+served on Freeside.
+
+Armitage, Molly and Case goes to a cabaret to assist to Riviera holographic
+show: "The Doll". 
+
+> "Riviera’s performance is designed to be disturbing and titillating, intended to capture the attention of 3Jane, a member of the Tessier Ashpool family, whose tastes Armitage, Wintermute, and Riviera have explored. However, Riviera also intends to disturb and offend his coworkers—specifically Molly who he seems to lust after but also resent. Although not technically real, his show is disturbing, and creates real emotions of disgust and distress in Case and Molly."
+> <cite>https://www.litcharts.com/lit/neuromancer/chapter-11</cite>
+
+Molly disappears from the cabaret. Case returns to hotel and has another
+encounter with Wintermute.
+
+Case finally gets an address for where to find Molly. She's in a cubicule
+coffin located in the basement of a nightclub. Case shows up at the front desk
+to realize it's a kind of brothel. He rents a cubicle near Molly's. Instead of
+settling into his unit, he knocks at Molly's door.
+
+Molly discloses her past as a sex doll. A sex doll is a woman who
+rents her body without being conscious of her encounters. A "cut-off chip" is
+implanted in her brain to prevent the doll of being conscious while being on
+duty. Molly's chip was likely tampered with when she got metal blades implanted
+in lieu of nails. Once she became conscious of being beaten up by a client. A
+major political man. She woke up and killed him.
+
+This is the reason Molly is always on the run. Escaping her former employer.
+
+Case and Molly concludes Wintermute is putting them into situations to trigger
+hatred; to manipulate them.
+
+> "She thinks Wintermute somehow set up his show, so that she would hate Riviera and be motivated to go in to Straylight after him. She tells Case she’s going to kill Riviera. Case tells Molly about the Lonny Zone and Linda Lee. Molly wonders if Wintermute is trying to get him to hate something, too. "
+
+## chapter 12 - Turing police. 
+In the last chapter of _Part three - Midnight in the Rue Jules-Verne_, Case
+reflects on his addiction to drugs; his reflex to numbing himself.
+
+He meets his new friend and drug soulmate Cath at a bar. She talks about 3Jane
+and her bodyguard. 3Jane is an heiress to the family Tessier-Ashpool. Cath
+presents a _derm_ containing Case's new favorite substance.
+
+Case walks around while being high. Back to his hotel room, he is met by "two
+men and a woman -- the Turing police.
+
+> "Turing," she said. "You are under arrest."
