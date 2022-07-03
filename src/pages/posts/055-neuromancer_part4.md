@@ -10,15 +10,15 @@ tags:
 
 ## part four - The Straylight Run
 
-Case and Molly executes their mission: a run in Tessier-Ashpool's Villa Straylight. It becomes clear who their employer is: Wintermute. Wintermute is an AI trying to increase its power. By law, AI are not supposed to be autonomous. By getting humans into situations, Wintermute defies the law.
+Case and Molly executes their mission: a run in Tessier-Ashpool's Villa Straylight. It becomes clear who their employer is: Wintermute. Wintermute is an AI trying to increase its power. By law, AI are not supposed to be autonomous. By getting humans into situations, Wintermute defies the law to achieve its goal.
 
 ### chapter 13 - Turing, you are under arrest!
 
-Back to his hotel, Case gets arrested by the three French teenagers he had noticed earlier. They are not teenagers, but members of the Turing police. A law enforcement agency dedicated to enforce laws linked to artificial intelligence (AI).
+Back to his hotel, Case gets arrested by the three French "teenagers" he had noticed earlier. They are not teenagers, but members of the Turing police. A law enforcement agency dedicated to enforce laws linked to artificial intelligence (AI).
 
-> "They explain he is under arrest and the charges “have to do with conspiracy to augment an artificial intelligence."
+> "They explain he is under arrest and the charges 'have to do with conspiracy to augment an artificial intelligence'."
 
-While being escorted outside his hotel, the police agents get attacked by various elements. Case escapes. He knows it was Wintermute setting him free.
+While being escorted outside his hotel, the police agents get attacked and killed by various elements of the urban landscape. Case escapes. He knows it was Wintermute setting him free.
 
 > "Michèle, Pierre, and Roland escort Case out of the hotel. As they walk across a footbridge, an autonomous microlight swings down out of the sky, partially decapitating Pierre. Case makes a break for it, and although Roland chases after him, a gardening robot falls from a tree, killing him as well."
 
