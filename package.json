@@ -19,7 +19,6 @@
     "gatsby-source-filesystem": "^2.11.1",
     "gatsby-transformer-remark": "^2.16.1",
     "gatsby-transformer-sharp": "^2.12.1",
-    "node-sass": "^4.14.1",
     "prop-types": "^15.7.2",
     "react": "^16.14.0",
     "react-dom": "^16.14.0",
@@ -27,6 +26,7 @@
     "reactstrap": "^8.7.1"
   },
   "devDependencies": {
+    "node-sass": "npm:sass@^1.53.0",
     "prettier": "2.0.4"
   },
   "keywords": [
