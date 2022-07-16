@@ -1,26 +1,26 @@
 const tagsSorted = function(dict) {
-  let keys = Object.keys(dict);
+    let keys = Object.keys(dict);
 
-  for (var i = keys.length; i >= 0; i--) {
-    for (var j = keys.length; j > 0; j--) {
-      if (dict[keys[i]] < dict[keys[j]]) {
-        let temp = keys[j];
-        keys[j] = keys[i];
-        keys[i] = temp;
+    for (var i = keys.length; i >= 0; i--) {
+      for (var j = keys.length; j > 0; j--) {
+        if (dict[keys[i]] < dict[keys[j]]) {
+          let temp = keys[j];
+          keys[j] = keys[i];
+          keys[i] = temp;
+        }
       }
     }
-  }
 
-  return keys;
+    return keys;
 }
 
 const slugify = function(text) {
-  var lowercasedstring = text.toString().toLowerCase(); 
+  let lowercasedstring = text.toString().toLowerCase(); 
 
   // removes diactrics and accents from string
   // useful for my french blog ;)
   //
-  var accentlessText = lowercasedstring.normalize('NFD').replace(/[\u0300-\u036f]/g, "");
+  let accentlessText = lowercasedstring.normalize('NFD').replace(/[\u0300-\u036f]/g, "");
   
   return accentlessText
      .replace(/\s+/g, '-') 		  // Replace spaces with -
