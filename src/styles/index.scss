@@ -1,11 +1,11 @@
 // Bootstrap scss
-@import '../../node_modules/bootstrap/scss/bootstrap.scss';
+@import "../../node_modules/bootstrap/scss/bootstrap.scss";
 
-@import './variables';
-@import './base';
-@import './header';
-@import './footer';
-@import './card';
-@import './links';
-@import './sidebar';
-@import './custom';
+@import "./variables";
+@import "./base";
+@import "./header";
+@import "./footer";
+@import "./card";
+@import "./links";
+@import "./sidebar";
+@import "./custom.scss";

@@ -1,6 +1,6 @@
 .card {
   margin-bottom: 30px;
-  background-color: whitesmoke;
+    background-color: whitesmoke;
 }
 .card-title {
   font-size:large;
@@ -9,7 +9,7 @@
   blockquote {
     margin: 20px;
     padding: 20px;
-    background-color:white;
+    background-color: white;
   }
   ul {
     margin: 10px;
@@ -28,4 +28,7 @@ ul.post-tags {
   li {
     margin-right: 10px;
   }
+}
+.card-post-text {
+  text-rendering: optimizeLegibility;
 }
