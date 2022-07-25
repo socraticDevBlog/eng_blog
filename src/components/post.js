@@ -35,7 +35,7 @@ const Post = ({ title, author, slug, date, body, fluid, tags }) => {
             </li>
           ))}
         </ul>
-        <Link to={`/${slug}`} className="btn btn-outline-primary float-right">
+        <Link to={`/${slug}`} className="btn btn-outline-primary float-end">
             Read more
         </Link>
       </CardBody>

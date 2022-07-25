@@ -42,7 +42,7 @@ class Header extends React.Component {
           </NavbarBrand>
           <NavbarToggler onClick={this.toggle} />
           <Collapse isOpen={this.state.isOpen} navbar>
-            <Nav className="ml-auto" navbar>
+            <Nav className="ms-auto" navbar>
               <NavItem>
                 <NavLink href="/about" title="about">
                   about
