@@ -5,7 +5,6 @@ author: "SocraticDev"
 image: ../../images/neuromancer-chapter3.png
 tags:
   - novel
-  - technology
 ---
 (final update: friday july 1st)
 
