@@ -5,7 +5,7 @@ author: "SocraticDev"
 image: ../../images/descartes_rails.png
 tags:
   - philosophy
-  - programmation
+  - programming
 ---
 
 The world of software development celebrates innovators. Those who
