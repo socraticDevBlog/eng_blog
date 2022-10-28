@@ -8,8 +8,8 @@ tags:
   - security
 ---
 
-Un SBOM est le graphe des dépendances d'un logiciel de façon à pouvoir
-identifier ce qui se trouve dans sa chaîne d'approvisionnement.
+An SBOM is the dependency graph of software so that you can
+identify what is in its supply chain.
 
 I have already opened the door to the idea that software developers
 draw inspiration from the physical product development process in a post
