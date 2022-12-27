@@ -2,6 +2,7 @@ import React from "react"
 import TwitterLogo from "../images/twitter.png"
 import GithubLogo from "../images/github.png"
 import GitlabLogo from "../images/gitlab.png"
+import MastadonLogo from "../images/mastadon48x48.png"
 
 const Footer = () => (
   <div className="site-footer">
@@ -36,6 +37,22 @@ const Footer = () => (
             <img
               src={GitlabLogo}
               alt="gitlab logo"
+              className="socialMediaLogo"
+            ></img>
+          </a>
+        </li>
+        <li>
+          <a
+            className=""
+            title="https://mastodon.social/@socdev"
+            href="https://mastodon.social/@socdev"
+            rel="noopener noreferrer"
+            target="_blank"
+            alt="lien vers ma page mastadon"
+          >
+            <img
+              src={MastadonLogo}
+              alt="mastadon logo"
               className="socialMediaLogo"
             ></img>
           </a>
