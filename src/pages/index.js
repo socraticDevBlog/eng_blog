@@ -6,7 +6,7 @@ import Post from "../components/post";
 import PageLinks from "../components/page-links";
 
 const IndexPage = () => {
-  const postsPerPage = 5;
+  const postsPerPage = 12;
   let numberOfPages;
   return (
     <Layout pageTitle="">
