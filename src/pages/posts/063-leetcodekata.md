@@ -1,5 +1,5 @@
 ---
-title: "why I am a big leetcode challenges and code katas fan?"
+title: "why I am a big Leetcode challenges and code katas fan?"
 date: 2023-02-17
 author: "SocraticDev"
 image: ../../images/leetcode.png
@@ -15,12 +15,9 @@ data structures, algorithms, system design, etc.
 Every challenge comports an educational goal, a difficulty degree, and
 sometimes a performance requirement.
 
-In my opinion, the most fun are discussion threads about challenges. Everyone
+In my opinion, discussion threads about challenges are gold. Everyone
 completing a challenge has the opportunity to compare their solutions with
 peers from all corners of the planet.
-
-Practicing developers may underline that these challenges are nothing
-like their day-to-day work requirements.
 
 ## because it's quick and fun
 
@@ -33,11 +30,14 @@ something to exert itself over.
 
 ## because it's NOT something linked to day-to-day work
 
+Practicing developers may underline that these challenges are nothing
+like their day-to-day work requirements.
+
 Most of my workdays are about designing and building systems. Squashing bugs and
 making those systems more reliable and easier to work with. 
 
 At the end of some days, I may feel not having been challenged enough.
-Integrating this routine of solving leetcode or code katas challenges not only
+Adopting a routine of solving Leetcode or code katas challenges not only
 soothes this feeling but also makes me a better
 professional. By being professional I mean that my first goal is adding value
 to the business and customers I'm serving. Not all work related activites are
@@ -53,8 +53,8 @@ At some point in a career one finds their comfort zone. An area of expertise
 where they are insanely good at.
 
 At some point, I was like fish in water building and improving web apps. At
-another, I could not have been happier writing Terraform code (infrastructure as code
-domain-specific language) to provisionning and configure cloud resources.
+another, I could not have been happier writing Terraform code (infrastructure-as-code
+domain-specific language) provisionning and configuring cloud resources.
 
 Feeling competent at work is a great feeling!
 
@@ -64,11 +64,11 @@ Learning platforms are a safe space for this. Putting you to your place;
 harshly showing you that you suck at solving problems; that you are not the
 best person at leveraging data structures and algorithms.
 
-We all know folks that are great at their job. However, they usually suffer
+We all know folks that are great at their job. However, they sometimes suffer
 from this nasty shortcoming: being great at one thing can easily swerve into
 being overconfident in other topics that they actually don't master at all.
 
-I don't want to become one of these arrogant pricks! 
+I don't want to grow into a nasty arrogant person! 
 
 Not yet ;)
 
