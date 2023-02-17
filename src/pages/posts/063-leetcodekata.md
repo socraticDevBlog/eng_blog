@@ -23,7 +23,7 @@ peers from all corners of the planet.
 
 I consume these challenges as a fun activity to do within a bounded time frame.
 Instead of staring at my phone for 20 minutes straight or stuffing my face with
-lime pie, I pickup a challenge and go thru it.
+lime pie, I pick a challenge up and go thru it.
 
 There is something satisfying to me in solving challenges; giving my brain
 something to exert itself over.
@@ -36,9 +36,9 @@ like their day-to-day work requirements.
 Most of my workdays are about designing and building systems. Squashing bugs and
 making those systems more reliable and easier to work with. 
 
-At the end of some days, I may feel not having been challenged enough.
+At the end of some days, I feel like not having been challenged enough.
 Adopting a routine of solving Leetcode or code katas challenges not only
-soothes this feeling but also makes me a better
+soothes this unpleasant feeling but also makes me a better
 professional. By being professional I mean that my first goal is adding value
 to the business and customers I'm serving. Not all work related activites are
 directly rewarding to me. Because it's not supposed to be about me!
@@ -68,9 +68,7 @@ We all know folks that are great at their job. However, they sometimes suffer
 from this nasty shortcoming: being great at one thing can easily swerve into
 being overconfident in other topics that they actually don't master at all.
 
-I don't want to grow into a nasty arrogant person! 
-
-Not yet ;)
+Growing as a human requires a fair amount of self-knowledge, humility, and stamina.
 
 ## sweet coding resources
 
