@@ -2,7 +2,7 @@ import React from "react"
 import Layout from "../components/layout"
 import { graphql, Link } from "gatsby"
 import SEO from "../components/seo"
-import { Card, CardSubtitle, CardBody, Badge } from "reactstrap"
+import { Card, CardTitle, CardSubtitle, CardBody, Badge } from "reactstrap"
 import Img from "gatsby-image"
 import { slugify } from "../util/util-functions"
 
@@ -15,7 +15,7 @@ const siteTitle = "socraticDev's Blog"
 const SinglePost = ({ data }) => {
   const post = data.markdownRemark.frontmatter
   return (
-    <Layout pageTitle={post.title}>
+    <Layout pageTitle={""}>
       <SEO title={post.title} />
 
       <Helmet>
@@ -58,6 +58,7 @@ const SinglePost = ({ data }) => {
           fluid={post.image.childImageSharp.fluid}
         />
         <CardBody>
+          <CardTitle>{post.title}</CardTitle>
           <p>
             <span className="text-secondary">{post.date}</span> by{" "}
             <span className="text-secondary">{post.author}</span>
