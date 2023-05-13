@@ -121,15 +121,11 @@ Worse than that is actively discouraging peers to give you the time of the day.
 You might not even realize you are doing it, but these are sure ways to make
 others stop helping you improve thru advices and criticism:
 
-- giving excuses to justify faulty work (_ad misericordiam_ fallacy);
-- attacking the other party directly or indirectly (_tu quoque_ fallacy).
-
-Better do this instead:
-
 - put forward your work and actively ask for feedback;
 - accept advices, follow up with the person and show them the improved work;
 - separate your self-worth from the work you produce; it is the work produced
-  that is getting criticized not yourself.
+  that is getting criticized not yourself;
+- thank the person that gives you feedback.
 
 The days when a lone programmer could build a valuable problem from A to Z are
 long gone. You work with intelligent and competent people. You'd be a fool not
