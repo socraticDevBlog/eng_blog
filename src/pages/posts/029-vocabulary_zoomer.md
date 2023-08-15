@@ -1,14 +1,13 @@
 ---
 title: "Zoomers are talking: can you understand them?"
-date: 2023-08-06
+date: 2023-08-15
 author: "SocraticDev"
 image: ../../images/vocabulary-zoomer.jpg
 tags:
 - fun
 - growth
 ---
-(updated with new words: amogus,"it's ogre", brekie/din din, boujee, bussin', cap,
-dank, fam, rizz, sus, smol, shu shu, tea (spilling/sipping)) 
+(updated with new words: garbo) 
  
 Youth always had its own private language. In my younger days, I remember moving to a new city and discovering kids my age used an array of unknown expressions to me. Quick! Better learn them fast. A common language defines a community and offers a feeling of belonging. Nowadays the community is global and youth shares thru Internet a common idiom older folks don't understand. 
 
@@ -36,6 +35,9 @@ And they couldn't care less.
 
 - __fam__: an affectionate way to refer to a friend. Can be used instead of
   "bro" or "sis".
+
+- __garbo__: something is judged totally bad; short way to say "garbage": "This
+  car is totally trash. It's garbo"
 
 - __poggers__: "poggers refers to a specific emoticon available on Twitch which depicts a surprised-looking Pepe the Frog. The word “poggers” is used to express excitement during a game when something exciting occurs." You can use this word instead of __based__.
 
