@@ -21,7 +21,7 @@ most experienced developers can manage their own deployments to production by
 handling automated CI/CD pipelines and leveraging cloud providers "canned
 expertise".
 
-The dream of `devops`, developers who can handle operations, is not reality!
+The dream of `devops`, developers who can handle operations, is now reality!
 
 ## platform engineering as the successor to devops
 
@@ -51,42 +51,42 @@ and hungry to build bleeding edge systems. However, according to Camille
 Fournier, building such systems are not how a platform engineer delivers value.
 
 First of all, platform engineers must understand "stream-aligned developers";
-i.e. developers who build features for which customers will pay for. With
+i.e. developers who build features for which customers pay for. With
 patience and empathy a great platform engineer caters to developers.
 Understanding what is slowing them, how their current systems work, and how to
 help them migrate their stuff to the platform; often doing the migration for
 them.
 
 Basically, a great platform engineer priority is offering a great "customer
-experience" to development teams. Building next-generation systems is only one
+experience" to development teams. Building next-generation systems is but only one
 way to do so.
 
 ## platform engineering is not a silver bullet
 
 Dave Farley, an Independent Software Developer and Consultant, Founder and
 Director of Continuous Delivery Ltd., has lately expressed reluctance toward
-platform engineering. According to him building platforms useful for
+the concept of platform engineering. According to him building platforms useful for
 non-trivial distributed systems is not possible. First and foremost it is not
 possible to build highly generic systems right the first time. It must be an
 iterative process.
 
 Being an experienced software engineer, he puts forward a probable scenario that
-proved "platforming" to be a vain enterprise. Let's say a large organization
+proves "platforming" to be a vain enterprise. Let's say a large organization
 platform team decides to build a "generic Account module" that could be consumed
 by different teams whose systems use the concept of _Account_. According to
 Dave Farley, it won't be too long before a single team needs some special
 feature to their _Account_ entity. Perhaps the finance team will need to comply
 with "know your customer" (kyc) regulations to avoid money laundering. What
 follows? They ask platform team to add a _kyc_ feature to their generic
-_Account_ entity; thus potentially breaking other teams _Account_ entity. Or,
+_Account_ entity; thus potentially breaking other teams _Account_ module. Or,
 the finance team would stop using the generic module to build their own
 instead; thus losing useful capabilities such as single-sign-on (sso).
 
-Platform engineering sounds like a great idea: let's remove all complex and
+Platform engineering sounds like a great idea: removing all complex and
 difficult challenges from stream-aligned development teams and let a siloed
 team of experts solve it for them.
 
-That will never work!
+But that will never work!
 
 Thinking that platform engineering will enable businesses to outsource features
 development to low-skilled code monkeys is a vain dream.
@@ -102,7 +102,7 @@ as:
 
 ## an institution
 
-Platform engineering team should be seen as a form of internal institution to an
+Platform engineering teams should be seen as a form of internal institution to an
 organization.
 
 > "Institutions (singular: institution) are humanly devised structures of rules
@@ -111,7 +111,7 @@ organization.
 > continuity. Laws, rules, social conventions and norms are all examples of
 > institutions.Institutions vary in their level of formality and
 > informality"
-> 
+>
 > <cite>"Institutions", _Wikipedia.org_, 2023-08-21</cite>
 
 As an institution, a platform engineering team ensures the continuity of an
