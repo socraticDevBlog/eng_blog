@@ -9,22 +9,6 @@ tags:
   - devops  
 ---
 
-Now that most businesses are done with digital transformation, software
-developers and coding IT people are omnipresent in organizations of all size.
-
-Current challenge is helping these technology specialists deliver new features
-faster while keeping systems running smoothly.
-
-Thanks to the cloud and infrastructure-as-code frameworks, more and more software developers are fluent with
-operations. Since the extinction of rack-mounted servers and RJ45 spiderwebs,
-most experienced developers can manage their own deployments to production by
-handling automated CI/CD pipelines and leveraging cloud providers "canned
-expertise".
-
-The dream of `devops`, developers who can handle operations, is now reality!
-
-## platform engineering as the successor to devops
-
 A new concept is getting traction in the software realm: platform
 engineering. A seductive idea that is getting (mis-)interpreted in
 various ways. Probably due to my background in Philosophy, I am keen to examine
