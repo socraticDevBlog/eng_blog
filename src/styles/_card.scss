@@ -1,6 +1,6 @@
 .card {
   margin-bottom: 30px;
-    background-color: white;
+  background-color: white;
 }
 .card-title {
   font-size:large;
@@ -31,4 +31,7 @@ ul.post-tags {
 }
 .card-post-text {
   text-rendering: optimizeLegibility;
+}
+.card-body{
+  padding: 2em;
 }
