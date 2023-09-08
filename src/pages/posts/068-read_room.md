@@ -14,19 +14,15 @@ skill:
 1. the ability to quickly understand people's emotions, opinions, and
    tendencies in a group setting like a job interview, a business meeting, or
    even a live show;
-2. the ability to adapt's one discourse and behavior according to these insights.
+2. the ability to adapt one's discourse and behavior according to these insights.
 
 ## communication 101
 
 Effective communication is a lost art.
 
-I believe communication is often the dealbreaker in most hardships. Especially for professionals who's successes
-rest on a collection of partnerships with people from different backgrounds.
-The way I'd communicate to sell a product to a customer is much different than
-the way I'd communicate to a colleague to explain a technical challenge. In both
-cases, the degree to which I know the other person's role in the company, their
-skillset as well as their current emotions, tendancies, opinions and goals
-strongly correlates with the success of the interaction.
+I believe faulty communication to be at the core of most hardships. Learning
+about communication and its various angles will shed light to a complex process
+about which most of us careless actors.
 
 Let's agree that communication is an activity taking place between at least two
 parties: the speaker and the audience. The speaker is one person and the
