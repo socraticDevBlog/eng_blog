@@ -22,13 +22,13 @@ Effective communication is a lost art.
 
 I believe faulty communication to be at the core of most hardships. Learning
 about communication and its various angles will shed light to a complex process
-about which most of us careless actors.
+about which most of us are careless actors.
 
 Let's agree that communication is an activity taking place between at least two
 parties: the speaker and the audience. The speaker is one person and the
 audience can be one or more than one person.
 
-Leaning on my philosophical roots, I'm bringing up Aristotle breakdown of
+Leaning on my philosophical roots, I'm putting forward greek philosopher Aristotle's breakdown of
 _persuasion_ to split communication in three integral parts:
 
 ### I - Ethos
