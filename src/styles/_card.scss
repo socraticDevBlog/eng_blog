@@ -1,25 +1,31 @@
 .card {
   margin-bottom: 30px;
   background-color: white;
+  border: none;
 }
+
 .card-title {
-  font-size:large;
+  font-size: x-large;
 }
+
 .card-subtitle {
   blockquote {
     margin: 20px;
     padding: 20px;
-    background-color: #E5E4E2;
+    background-color: white;
   }
+
   ul {
     margin: 10px;
     list-style-type: circle;
   }
-  li{
-    margin-left:25px;
-    margin:10px;
+
+  li {
+    margin-left: 25px;
+    margin: 10px;
   }
 }
+
 ul.post-tags {
   padding: 0;
   display: inline-flex;
@@ -29,9 +35,7 @@ ul.post-tags {
     margin-right: 10px;
   }
 }
+
 .card-post-text {
   text-rendering: optimizeLegibility;
-}
-.card-body{
-  padding: 2em;
 }
