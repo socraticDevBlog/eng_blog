@@ -3,7 +3,7 @@ import Layout from "../components/layout"
 import { graphql, Link } from "gatsby"
 import SEO from "../components/seo"
 import { Card, CardTitle, CardSubtitle, CardBody, Badge } from "reactstrap"
-import Img from "gatsby-image"
+import { GatsbyImage } from "gatsby-plugin-image"
 import { slugify } from "../util/util-functions"
 
 import { Helmet } from "react-helmet"
@@ -29,7 +29,7 @@ const SinglePost = ({ data }) => {
         />
         <meta
           property="og:image"
-          content={`${rootUrlImg}${post.image.childImageSharp.fluid.src}/`}
+          content={`${rootUrlImg}${post.image.childImageSharp.gatsbyImageData.src}/`}
         />
         <meta
           property="og:url"
@@ -37,7 +37,7 @@ const SinglePost = ({ data }) => {
         />
         <meta
           property="twitter:image"
-          content={`${rootUrlImg}${post.image.childImageSharp.fluid.src}`}
+          content={`${rootUrlImg}${post.image.childImageSharp.gatsbyImageData.src}`}
         />
         <meta name="twitter:card" content="summary_large_image" />
         <meta
@@ -53,9 +53,9 @@ const SinglePost = ({ data }) => {
       </Helmet>
 
       <Card>
-        <Img
+        <GatsbyImage
           className="card-image-top"
-          fluid={post.image.childImageSharp.fluid}
+          image={post.image.childImageSharp.gatsbyImageData}
         />
         <CardBody>
           <CardTitle>{post.title}</CardTitle>
@@ -101,10 +101,13 @@ export const postQuery = graphql`
         tags
         image {
           childImageSharp {
-            fluid(maxHeight: 200, maxWidth: 600) {
-              src
-              ...GatsbyImageSharpFluid
-            }
+            gatsbyImageData(
+              layout: CONSTRAINED
+              width: 1000
+              height: 300
+              placeholder: DOMINANT_COLOR
+              formats: [AUTO, WEBP]
+            )
           }
         }
       }

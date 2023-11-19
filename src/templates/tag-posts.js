@@ -7,7 +7,7 @@ const tagPosts = ({ data, pageContext }) => {
   const { tag } = pageContext
   const { totalCount } = data.allMarkdownRemark
   const pageHeader = `${totalCount} post${
-    totalCount > 1 ? 's' : ''
+    totalCount > 1 ? "s" : ""
   } about "${tag}" `
 
   return (
@@ -21,7 +21,7 @@ const tagPosts = ({ data, pageContext }) => {
           date={node.frontmatter.date}
           body={node.excerpt}
           tags={node.frontmatter.tags}
-          fluid={node.frontmatter.image.childImageSharp.fluid}
+          fluid={node.frontmatter.image.childImageSharp.gatsbyImageData}
         />
       ))}
     </Layout>
@@ -29,7 +29,7 @@ const tagPosts = ({ data, pageContext }) => {
 }
 
 export const tagQuery = graphql`
-  query($tag: String!) {
+  query ($tag: String!) {
     allMarkdownRemark(
       sort: { fields: [frontmatter___date], order: DESC }
       filter: { frontmatter: { tags: { in: [$tag] } } }
@@ -46,9 +46,13 @@ export const tagQuery = graphql`
             tags
             image {
               childImageSharp {
-                fluid(maxHeight: 200, maxWidth: 600) {
-                  ...GatsbyImageSharpFluid
-                }
+                gatsbyImageData(
+                  layout: CONSTRAINED
+                  width: 1000
+                  height: 300
+                  placeholder: DOMINANT_COLOR
+                  formats: [AUTO, WEBP]
+                )
               }
             }
           }

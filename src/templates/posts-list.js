@@ -19,7 +19,7 @@ const postsList = props => {
           date={node.frontmatter.date}
           body={node.excerpt}
           tags={node.frontmatter.tags}
-          fluid={node.frontmatter.image.childImageSharp.fluid}
+          fluid={node.frontmatter.image.childImageSharp.gatsbyImageData}
         />
       ))}
       <PageLinks currentPage={currentPage} numberOfPages={pagesCount}/>
@@ -45,9 +45,13 @@ export const postListQuery = graphql`
             tags
             image {
               childImageSharp {
-                fluid(maxHeight: 200, maxWidth: 600) {
-                  ...GatsbyImageSharpFluid
-                }
+                gatsbyImageData(
+                  layout: CONSTRAINED
+                  width: 1000
+                  height: 300
+                  placeholder: DOMINANT_COLOR
+                  formats: [AUTO, WEBP]
+                )
               }
             }
           }
