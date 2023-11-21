@@ -3,7 +3,7 @@ import Layout from "../components/layout"
 import { graphql, Link } from "gatsby"
 import SEO from "../components/seo"
 import { Card, CardTitle, CardSubtitle, CardBody, Badge } from "reactstrap"
-import { GatsbyImage } from "gatsby-plugin-image"
+import { GatsbyImage, getImage, getSrc } from "gatsby-plugin-image"
 import { slugify } from "../util/util-functions"
 
 import { Helmet } from "react-helmet"
@@ -14,6 +14,8 @@ const siteTitle = "socraticDev's Blog"
 
 const SinglePost = ({ data }) => {
   const post = data.markdownRemark.frontmatter
+  const img = getImage(post.image.childImageSharp.gatsbyImageData.src)
+  const imgSrc = getSrc(img)
   return (
     <Layout pageTitle={""}>
       <SEO title={post.title} />
@@ -27,18 +29,12 @@ const SinglePost = ({ data }) => {
           property="og:description"
           content={`${data.markdownRemark.excerpt}`}
         />
-        <meta
-          property="og:image"
-          content={`${rootUrlImg}${post.image.childImageSharp.gatsbyImageData.src}/`}
-        />
+        <meta property="og:image" content={`${rootUrlImg}${imgSrc}/`} />
         <meta
           property="og:url"
           content={`${rootUrl}${data.markdownRemark.fields.slug}/`}
         />
-        <meta
-          property="twitter:image"
-          content={`${rootUrlImg}${post.image.childImageSharp.gatsbyImageData.src}`}
-        />
+        <meta property="twitter:image" content={`${rootUrlImg}${imgSrc}`} />
         <meta name="twitter:card" content="summary_large_image" />
         <meta
           name="twitter:description"
