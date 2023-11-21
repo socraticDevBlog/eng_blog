@@ -14,7 +14,7 @@ const siteTitle = "socraticDev's Blog"
 
 const SinglePost = ({ data }) => {
   const post = data.markdownRemark.frontmatter
-  const img = getImage(post.image.childImageSharp.gatsbyImageData.src)
+  const img = getImage(post.image.childImageSharp.gatsbyImageData)
   const imgSrc = getSrc(img)
   return (
     <Layout pageTitle={""}>
