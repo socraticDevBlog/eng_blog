@@ -70,10 +70,6 @@ confidence of a large part of their employees and have become patsies in the tec
 With OpenAI and the firing of Sam Altman, the Board of Directors has
 probably lacked prudence and judgment.
 
-The names of Ilya Sutskever, Helen Toner, Tasha McCauley and Adam D'Angelo,
-board members clumsily ejecting Salm
-Altman for "lack of candor", will they now be marked with suspicion and
-the distrust inspired by any fomenter of mutinies?
 
 `translated from french by google translate`
 
