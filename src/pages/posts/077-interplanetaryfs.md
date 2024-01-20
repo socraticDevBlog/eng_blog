@@ -22,10 +22,9 @@ a computer or physical media. In addition to supervising the writing processes
 and data reading, it allows management of data location, write and read
 authorization, adding metadata to files, etc.
 
-There are several file systems and we prefer some depending on our cases
-of use. Some systems guarantee better performance for
-_logs_ management (HTFS), while others are designed for systems
-distributed complexes (HDFS).
+There are several file systems and we prefer some depending on our usecase.
+Some systems guarantee better performance for _logs_ management (`HTFS`), while
+others are designed for large distributed systems (`HDFS`).
 
 ### IPFS
 
@@ -69,11 +68,13 @@ I think I understand the main points and I like the concept. But I am far from
 being an expert and, if this new decentralized protocol gives you please too, I
 invite you to dig deeper or even participate in the project!
 
+`translated from french by google translate`
+
 ### sources 
 
 [Cloudflare Docs - Interplanetary File System (IPFS)](https://developers.cloudflare.com/web3/ipfs-gateway/concepts/ipfs/)
 
-[Discover What's Out There with IPFS](https://ipfs.tech/)
+[IPFS - Discover What's Out There with IPFS](https://ipfs.tech/)
 
 [https://github.com/ipfs](https://github.com/ipfs)
 
