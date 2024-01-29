@@ -1,5 +1,5 @@
 ---
-title: "Interplanetary File System: Better than Blockchain"
+title: "interplanetary file system: just another blockchain scam?"
 date: 2024-01-20
 author: "socraticDev"
 image: ../../images/ipfs.png
