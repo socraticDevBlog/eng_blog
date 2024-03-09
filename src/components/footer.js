@@ -28,22 +28,6 @@ const Footer = () => (
         <li>
           <a
             className=""
-            title="https://gitlab.com/socraticdev/"
-            href="https://gitlab.com/socraticdev/"
-            rel="noopener noreferrer"
-            target="_blank"
-            alt="url to my gitLab page"
-          >
-            <img
-              src={GitlabLogo}
-              alt="gitlab logo"
-              className="socialMediaLogo"
-            ></img>
-          </a>
-        </li>
-        <li>
-          <a
-            className=""
             title="https://mastodon.social/@socdev"
             href="https://mastodon.social/@socdev"
             rel="noopener noreferrer"
