@@ -2,7 +2,11 @@
   margin-bottom: 1em;
   background-color: white;
   border: none;
-  padding: 0.8em;
+}
+
+.card-body {
+  padding: 1em;
+
 }
 
 .card-title {
@@ -12,8 +16,6 @@
 .card-subtitle {
   blockquote {
     margin: 20px;
-    padding: 20px;
-    background-color: whitesmoke;
   }
 
   ul {

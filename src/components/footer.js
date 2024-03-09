@@ -1,7 +1,6 @@
 import React from "react"
 import TwitterLogo from "../images/x-logo-black.png"
 import GithubLogo from "../images/github.png"
-import GitlabLogo from "../images/gitlab.png"
 import MastadonLogo from "../images/mastadon48x48.png"
 
 const Footer = () => (
