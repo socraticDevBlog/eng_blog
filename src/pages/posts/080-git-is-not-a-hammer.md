@@ -37,9 +37,9 @@ Adopting cargo cults, hiring more developers, creating specialized silos, and
 lots of other miracle cures are fallacies used by management to buy time to mitigate their
 failure to deliver value to stakeholders
 
-### my wishes for the industry
+### my wish for the industry
 
-By firing most of Twitter's staff, Elon Musk showed the industry that most
+By firing most of Twitter's staff, Elon Musk showed the industry that a lot of
 people in tech are dead weight. Renamed "X", Twitter is still running, ain't it??
 
 My wishes for the industry are similar to the axioms stated above.
