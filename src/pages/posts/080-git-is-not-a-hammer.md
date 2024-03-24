@@ -96,11 +96,11 @@ A DevOps engineer christening often goes like this:
 
 > _a developer
 > frantically messages them asking to "delete my last commit pushed to production because it
-> contains some secret value". 
+> contains some secret value"._ 
 > 
-> DevOps engineers all remember that first time they
+> _DevOps engineers all remember that first time they
 > witnessed a developer blank stare when they suggested that he should change the value of his secret
-> because it already touched the Internet. That stare so blank that you feel bad;
+> because it already touched the Internet. A stare so blank that it feels bad;
 > a little like you've had asked them to hand over their first born._
 
 Do you expect a brain surgeon to agree to perform surgery without anesthesia
