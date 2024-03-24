@@ -83,21 +83,23 @@ checks and deploy a production-like version of the website to an ephemeral
 environment. This sort of tooling is usually built-in modern DevOps platform;
 for free if you're a little guy like me, or for a few dollars when you're an enterprise.
 
-### even DevOps engineer are software professionals
+### DevOps engineers are software professionals
 
 "Our customers are the developers" is a feel good white lie we tell ourselves
 as DevOps engineers.
 
-DevOps engineers are professionals and should not bend over backward to all developers'
-requests.  DevOps engineers are known to lighten up their burden by poking fun
-at various developer requests.
+DevOps engineers are software professionals and should not bend over backward to all developers'
+requests.  But don't feel bad for them: DevOps engineers are known to lighten
+up their burden by poking fun at various developer requests on a regular basis.
 
 A DevOps engineer christening often goes like this: 
 
 > _a developer
-> frantically messages you to ask you to "delete my last commit pushed to production because it
-> contains some secret value". DevOps engineers all remember that first time they
-> see a developer blank stare when they suggested that he should change the value of his secret
+> frantically messages them asking to "delete my last commit pushed to production because it
+> contains some secret value". 
+> 
+> DevOps engineers all remember that first time they
+> witnessed a developer blank stare when they suggested that he should change the value of his secret
 > because it already touched the Internet. That stare so blank that you feel bad;
 > a little like you've had asked them to hand over their first born._
 
@@ -121,13 +123,13 @@ developers to make them deliver more.
 Going to the bathroom takes time!  It takes even more time if you wash
 your hands properly!! Doesn't it?
 
-Sadly, many organizations structure work around this fallacy and instead of
+Sadly, many organizations structure teams around this fallacy and instead of
 leveraging their DevOps engineers to improve the Software Development
 Lifecycle, they use them to change diapers...
 
 ### conclusion
 
-I'm writing this to poke fun at funky DevOps practices. Many people suffer from
+I'm writing this to poke fun at funky DevOps practices. Too many technical people suffer from
 unsound development cultures and I believe the first step to improve their
 condition is by laughing a little at ourselves.
 
