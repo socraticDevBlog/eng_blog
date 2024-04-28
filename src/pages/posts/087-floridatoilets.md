@@ -18,7 +18,7 @@ Skillfully, the podcast host explained that Colonna's remarks could be interpret
 
 ### The Inexorable Limit of the Concrete
 
-Abstract thinking has allowed philosophers to contemplate themes such as justice and science.
+Abstract thinking has allowed philosophers to contemplate themes such as justice and knowledge.
 
 In geometry, for example, it deals with points, angles, and theorems from which various concrete shapes can be drawn.
 
