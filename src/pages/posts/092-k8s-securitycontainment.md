@@ -51,7 +51,7 @@ create a new namespace with pod-security labels that would warn when deploying
 an unsecure pod, but letting you do it anyways:
 
 ```bash
-cat <<EOF > nss.yml
+cat <<EOF > ns.yml
 apiVersion: v1
 kind: Namespace
 metadata:
@@ -64,6 +64,10 @@ metadata:
     pod-security.kubernetes.io/warn: restricted
     pod-security.kubernetes.io/warn-version: v1.30
 EOF
+```
+
+```bash
+kubectl apply -f ns.yml
 ```
 
 #### deploy an non-compliant pod to this namespace
