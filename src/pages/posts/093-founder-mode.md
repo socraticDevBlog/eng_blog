@@ -12,7 +12,7 @@ Latest blog post by YC founder Paul Graham is a good one
 
 Following up on a
 recent Brian Chesky's talk he challenges the idea that start-ups should be
-handed over professional managers when they reach a certain stage of maturity
+handed over to professional managers when they reach a certain stage of maturity
 
 > The theme of Brian's talk was that the conventional wisdom about how to run
 > larger companies is mistaken. As Airbnb grew, > well-meaning people advised
@@ -42,3 +42,5 @@ Graham advocates for a reevaluation of how leadership in growing companies is pe
 ### sources
 
 [https://paulgraham.com/foundermode.html](https://paulgraham.com/foundermode.html)
+
+[community discussion about this blog post](https://news.ycombinator.com/item?id=41415023)
