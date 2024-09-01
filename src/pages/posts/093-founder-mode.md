@@ -14,12 +14,12 @@ Following up on a
 recent Brian Chesky's talk he challenges the idea that start-ups should be
 handed over to professional managers when they reach a certain stage of maturity
 
-> The theme of Brian's talk was that the conventional wisdom about how to run
-> larger companies is mistaken. As Airbnb grew, > well-meaning people advised
-> him that he had to run the company in a certain way for it to scale. Their
-> advice could be optimistically summarized as "hire good people and give them
-> room to do their jobs." He followed this advice and the results were
-> disastrous.
+> "The theme of Brian's talk was that the conventional wisdom about how to run
+> larger companies is mistaken. As Airbnb grew, well-meaning people advised him
+> that he had to run the company in a certain way for it to scale. Their advice
+> could be optimistically summarized as "hire good people and give them room to
+> do their jobs." He followed this advice and the results were disastrous." -
+> Paul Graham
 
 In conclusion, Graham advocates for a reevaluation of how leadership in growing companies is perceived, suggesting that the strong, hands-on leadership of founders should be more widely accepted and valued, rather than defaulting to professional managers who may not align with the company's original vision.
 
