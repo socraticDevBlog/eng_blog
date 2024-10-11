@@ -7,8 +7,6 @@ module.exports = {
   },
   plugins: [
     `gatsby-plugin-image`,
-    `gatsby-plugin-sharp`,
-    `gatsby-transformer-sharp`, // Needed for dynamic images,
     {
       resolve: `gatsby-plugin-feed`,
       options: {
@@ -70,17 +68,6 @@ module.exports = {
       options: {
         name: `images`,
         path: `${__dirname}/src/images`,
-      },
-    },
-    {
-      resolve: `gatsby-plugin-gtag`,
-      options: {
-        // your google analytics tracking id
-        trackingId: `UA-154676737-2`,
-        // Puts tracking script in the head instead of the body
-        head: true,
-        // enable ip anonymization
-        anonymize: true,
       },
     },
     {
