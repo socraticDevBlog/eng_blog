@@ -4,7 +4,8 @@ date: 2025-04-17
 author: "SocraticDev"
 image: ../../images/cambyse.png
 tags:
-  - actualité
+  - ideas
+  - news
 ---
 
 Reading the history of Cambyses II’s reign up until the rise of Darius sheds light on the dangers of absolute power wielded by a single man—and the harmful consequences it brings, especially for those around him.
