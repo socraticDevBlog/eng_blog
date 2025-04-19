@@ -13,7 +13,7 @@ Exploring the reign of Persian king Cambyses II, particularly in the context of 
 
 His brief reign, from 530 to 522 BCE, is often seen as an example of the excesses of power exercised without oversight or accountability. Son of Cyrus II, Cambyses
 II conquered Egypt in 525 BCE, founding the 27th dynasty. This conquest was marked
-by extreme brutality. Offended by the resistance of King Psammenitus, Cambyses
+by extreme brutality. Offended by the resistance of King Psammenitus, Cambyses II
 had his children humiliated and massacred, forcing them to march dressed as
 slaves with nooses around their necks. He also desecrated Egyptian tombs as an
 act of revenge.
@@ -32,8 +32,7 @@ The Greek historian Herodotus presents the conspiracy of the Seven, in which
 seven Persian nobles, including Darius, slaughtered the usurpers of the Persian
 throne is presented as a founding moment that sparked political reflection. It
 is worth noting that shortly before his death, Cambyses II fell victim to a scheme
-orchestrated by one of his trusted men: following the discreet assassination of
-his brother, and since the population was unaware of his death, he replaced him
+orchestrated by one of his trusted men: following his brother's discreet assassination, since the population was unaware of his death, he replaced him
 with his own brother. Thus, the latter, a non-Persian, became king after
 Cambyses II’s death and ruled as a usurper for several years.
 
@@ -42,13 +41,6 @@ all agreed never again to submit to the rule of a single man who could act as
 he pleased without being held accountable. In any case, pride, the pursuit of
 personal gain, and reckless haste are flaws inherent in such a political
 situation.
-
-The Greek historian Herodotus then recounts the “conspiracy of the Seven”:
-seven Persian nobles, including Darius, overthrew the usurpers of the throne.
-This pivotal moment gave rise to profound political reflection: after years of
-injustice, the nobles debated the best system of government. They all agreed on
-one point: never again should a single man govern without being subject to any
-form of control.
 
 Herodotus’s account of the 'conspiracy of the Seven' can be seen as
 highlighting a rare but valuable idea: that of decisive and discreet action.
