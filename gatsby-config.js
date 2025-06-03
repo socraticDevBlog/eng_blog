@@ -6,6 +6,20 @@ module.exports = {
     siteUrl: `https://en.socratic.dev`,
   },
   plugins: [
+    {
+      resolve: `gatsby-plugin-google-gtag`,
+      options: {
+        trackingIds: [
+          "G-7SN1K62WBF", // Google Analytics / GA4 Measurement ID
+        ],
+        gtagConfig: {
+          anonymize_ip: true,
+        },
+        pluginConfig: {
+          head: true,
+        },
+      },
+    },
     `gatsby-plugin-image`,
     {
       resolve: `gatsby-plugin-feed`,
