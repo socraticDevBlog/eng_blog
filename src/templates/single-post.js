@@ -97,8 +97,8 @@ export const postQuery = graphql`
           childImageSharp {
             gatsbyImageData(
               layout: CONSTRAINED
-              width: 1000
-              height: 300
+              width: 1200
+              height: 630
               placeholder: DOMINANT_COLOR
               formats: [AUTO, WEBP]
             )
