@@ -29,7 +29,7 @@ const SinglePost = ({ data }) => {
         <meta property="og:image" content={`${rootUrlImg}${imgSrc}`} />
         <meta
           property="og:url"
-          content={`${rootUrl}${data.markdownRemark.fields.slug}`}
+          content={`${rootUrl}/${data.markdownRemark.fields.slug}`}
         />
         <meta property="og:site_name" content={siteTitle} />
         <meta property="twitter:image" content={`${rootUrlImg}${imgSrc}`} />
@@ -42,7 +42,7 @@ const SinglePost = ({ data }) => {
         <meta property="og:locale" content="fr_CA" />
         <link
           rel="canonical"
-          href={`${rootUrl}${data.markdownRemark.fields.slug}`}
+          href={`${rootUrl}/${data.markdownRemark.fields.slug}`}
         />
       </Helmet>
 
