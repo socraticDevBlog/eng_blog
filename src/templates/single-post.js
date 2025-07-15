@@ -8,7 +8,7 @@ import { slugify } from "../util/util-functions"
 
 import { Helmet } from "react-helmet"
 
-const rootUrl = `{rootUrlImg}/`
+const rootUrl = "https://en.socratic.dev"
 const rootUrlImg = "https://en.socratic.dev"
 const siteTitle = "socraticDev's Blog"
 
@@ -22,29 +22,27 @@ const SinglePost = ({ data }) => {
 
       <Helmet>
         <title>{`${post.title} | ${siteTitle}`}</title>
-        <meta charset="utf-8" />
+        <meta charSet="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <meta property="og:title" content={`${post.title}`} />
-        <meta
-          property="og:description"
-          content={`${data.markdownRemark.excerpt}`}
-        />
-        <meta property="og:image" content={`${rootUrlImg}${imgSrc}/`} />
+        <meta property="og:title" content={post.title} />
+        <meta property="og:description" content={data.markdownRemark.excerpt} />
+        <meta property="og:image" content={`${rootUrlImg}${imgSrc}`} />
         <meta
           property="og:url"
-          content={`${rootUrl}${data.markdownRemark.fields.slug}/`}
+          content={`${rootUrl}${data.markdownRemark.fields.slug}`}
         />
+        <meta property="og:site_name" content={siteTitle} />
         <meta property="twitter:image" content={`${rootUrlImg}${imgSrc}`} />
         <meta name="twitter:card" content="summary_large_image" />
         <meta
           name="twitter:description"
-          content={`${data.markdownRemark.excerpt}`}
+          content={data.markdownRemark.excerpt}
         />
         <meta property="og:type" content="article" />
         <meta property="og:locale" content="fr_CA" />
         <link
           rel="canonical"
-          href={`${rootUrl}${data.markdownRemark.fields.slug}/`}
+          href={`${rootUrl}${data.markdownRemark.fields.slug}`}
         />
       </Helmet>
 
