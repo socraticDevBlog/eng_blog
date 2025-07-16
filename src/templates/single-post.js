@@ -32,7 +32,7 @@ const SinglePost = ({ data }) => {
         <meta property="article:publisher" content="https://en.socratic.dev" />
         <meta property="og:description" content={data.markdownRemark.excerpt} />
         <meta property="og:image" content={`${rootUrlImg}${socialImgSrc}`} />
-        <meta property="article:published_time" content={post.dateIso} />
+        <meta property="article:published_time" content={post.dateISO} />
         <meta
           property="og:url"
           content={`${rootUrl}/${data.markdownRemark.fields.slug}`}
