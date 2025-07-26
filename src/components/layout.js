@@ -32,6 +32,21 @@ const Layout = ({ children, pageTitle }) => {
       <div className="container" id="content">
         <img id="main_logo" class="center" src={ Logo } alt="SocraticDev logo"></img>
         <h2>{pageTitle}</h2>
+        <div
+      style={{
+        backgroundColor: "#000000",
+        color: "#FFD700",
+        padding: "1rem",
+        textAlign: "center",
+        marginBottom: "3em",
+        fontSize: "0.95rem",
+        borderBottom: "2px solid #FFD700",
+        borderRadius: "0 0 40px 10px",
+      }}
+    >
+      ⚠️📧 We’re aware of spoofed emails pretending to be from socratic.dev.  
+      We don’t initiate unsolicited contact. Stay safe.
+    </div>
         <Row>
           <Col md="2"></Col>
           <Col md="8">
