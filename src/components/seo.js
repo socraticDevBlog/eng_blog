@@ -11,7 +11,7 @@ import { Helmet } from "react-helmet"
 import { useStaticQuery, graphql } from "gatsby"
 
 function SEO({ description, lang, meta, title }) {
-  const { site } = useStaticQuery(graphql`
+  const { site, file } = useStaticQuery(graphql`
     query {
       site {
         siteMetadata {
@@ -25,6 +25,9 @@ function SEO({ description, lang, meta, title }) {
             twitterCard
           }
         }
+      }
+      file(relativePath: { eq: "devops-knows.png" }) {
+        publicURL
       }
     }
   `)
@@ -73,17 +76,27 @@ function SEO({ description, lang, meta, title }) {
         // Social images (absolute URLs)
         {
           property: `og:image`,
-          content:
-            site.siteMetadata.siteUrl && site.siteMetadata.image
-              ? `${site.siteMetadata.siteUrl}${site.siteMetadata.image}`
-              : undefined,
+          content: (function () {
+            if (file && file.publicURL && site.siteMetadata.siteUrl) {
+              return `${site.siteMetadata.siteUrl}${file.publicURL}`
+            }
+            if (site.siteMetadata.siteUrl && site.siteMetadata.image) {
+              return `${site.siteMetadata.siteUrl}${site.siteMetadata.image}`
+            }
+            return undefined
+          })(),
         },
         {
           name: `twitter:image`,
-          content:
-            site.siteMetadata.siteUrl && site.siteMetadata.image
-              ? `${site.siteMetadata.siteUrl}${site.siteMetadata.image}`
-              : undefined,
+          content: (function () {
+            if (file && file.publicURL && site.siteMetadata.siteUrl) {
+              return `${site.siteMetadata.siteUrl}${file.publicURL}`
+            }
+            if (site.siteMetadata.siteUrl && site.siteMetadata.image) {
+              return `${site.siteMetadata.siteUrl}${site.siteMetadata.image}`
+            }
+            return undefined
+          })(),
         },
         {
           property: `og:site_name`,
