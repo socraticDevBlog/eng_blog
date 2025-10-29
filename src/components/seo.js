@@ -92,36 +92,25 @@ function SEO({
         // Use the site default social card (prefer large image)
         {
           name: `twitter:card`,
-          content:
-            site.siteMetadata.social && site.siteMetadata.social.twitterCard
-              ? site.siteMetadata.social.twitterCard
-              : `summary_large_image`,
+          content: `summary_large_image`,
         },
         {
           name: `twitter:creator`,
           content:
-            site.siteMetadata.social && site.siteMetadata.social.twitter
-              ? site.siteMetadata.social.twitter
-              : site.siteMetadata.author,
+            site.siteMetadata.social?.twitter || site.siteMetadata.author,
         },
         // Social images (absolute URLs)
-        {
+        absoluteImageUrl && {
           property: "og:image",
           content: absoluteImageUrl,
         },
-        {
+        absoluteImageUrl && {
           name: "twitter:image",
           content: absoluteImageUrl,
         },
         {
           property: "og:locale",
           content: locale,
-        },
-        canonical && {
-          rel: "canonical",
-          href: canonical.startsWith("http")
-            ? canonical
-            : `${site.siteMetadata.siteUrl}${canonical}`,
         },
         {
           property: `og:site_name`,
@@ -135,7 +124,9 @@ function SEO({
           name: `twitter:description`,
           content: metaDescription,
         },
-      ].concat(meta)}
+      ]
+        .filter(Boolean)
+        .concat(meta || [])}
     />
   )
 }
