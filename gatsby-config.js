@@ -4,6 +4,11 @@ module.exports = {
     description: `Talking about Technology, Philosophy and everything interesting`,
     author: `Maxime Bonin`,
     siteUrl: `https://en.socratic.dev`,
+    image: `/images/devops-knows.png`, // Default social media preview image (PNG recommended for social previews)
+    social: {
+      twitter: `socraticDevBlog`, // Add your Twitter handle if you have one
+      twitterCard: `summary_large_image`,
+    },
   },
   plugins: [
     {

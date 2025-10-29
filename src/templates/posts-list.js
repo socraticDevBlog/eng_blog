@@ -3,7 +3,7 @@ import Layout from "../components/layout"
 import Post from "../components/post"
 import { graphql } from "gatsby"
 import PageLinks from "../components/page-links"
-import bannerImage from "../images/_banner.svg"
+import bannerImage from "../images/devops-knows.png"
 
 import { Helmet } from "react-helmet"
 const rootUrl = "https://en.socratic.dev"

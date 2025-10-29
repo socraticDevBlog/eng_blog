@@ -11,19 +11,23 @@ import { Helmet } from "react-helmet"
 import { useStaticQuery, graphql } from "gatsby"
 
 function SEO({ description, lang, meta, title }) {
-  const { site } = useStaticQuery(
-    graphql`
-      query {
-        site {
-          siteMetadata {
-            title
-            description
-            author
+  const { site } = useStaticQuery(graphql`
+    query {
+      site {
+        siteMetadata {
+          title
+          description
+          author
+          siteUrl
+          image
+          social {
+            twitter
+            twitterCard
           }
         }
       }
-    `
-  )
+    }
+  `)
 
   const metaDescription = description || site.siteMetadata.description
 
@@ -51,13 +55,39 @@ function SEO({ description, lang, meta, title }) {
           property: `og:type`,
           content: `website`,
         },
+        // Use the site default social card (prefer large image)
         {
           name: `twitter:card`,
-          content: `summary`,
+          content:
+            site.siteMetadata.social && site.siteMetadata.social.twitterCard
+              ? site.siteMetadata.social.twitterCard
+              : `summary_large_image`,
         },
         {
           name: `twitter:creator`,
-          content: site.siteMetadata.author,
+          content:
+            site.siteMetadata.social && site.siteMetadata.social.twitter
+              ? site.siteMetadata.social.twitter
+              : site.siteMetadata.author,
+        },
+        // Social images (absolute URLs)
+        {
+          property: `og:image`,
+          content:
+            site.siteMetadata.siteUrl && site.siteMetadata.image
+              ? `${site.siteMetadata.siteUrl}${site.siteMetadata.image}`
+              : undefined,
+        },
+        {
+          name: `twitter:image`,
+          content:
+            site.siteMetadata.siteUrl && site.siteMetadata.image
+              ? `${site.siteMetadata.siteUrl}${site.siteMetadata.image}`
+              : undefined,
+        },
+        {
+          property: `og:site_name`,
+          content: site.siteMetadata.title,
         },
         {
           name: `twitter:title`,
