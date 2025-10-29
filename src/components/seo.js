@@ -10,8 +10,13 @@ import PropTypes from "prop-types"
 import { Helmet } from "react-helmet"
 import { useStaticQuery, graphql } from "gatsby"
 
+// Filename for the site's default social preview image (kept as a constant
+// so it can be changed in one place). This file should live under
+// `src/images/` (we'll look it up via GraphQL `allFile` at build time).
+const SOCIAL_IMAGE = "_banner.svg"
+
 function SEO({ description, lang, meta, title }) {
-  const { site, file } = useStaticQuery(graphql`
+  const { site, allFile } = useStaticQuery(graphql`
     query {
       site {
         siteMetadata {
@@ -26,11 +31,20 @@ function SEO({ description, lang, meta, title }) {
           }
         }
       }
-      file(relativePath: { eq: "devops-knows.png" }) {
-        publicURL
+      allFile {
+        nodes {
+          relativePath
+          publicURL
+        }
       }
     }
   `)
+
+  // Find the file node that matches the SOCIAL_IMAGE constant (if any).
+  const fileNode =
+    allFile && allFile.nodes
+      ? allFile.nodes.find((n) => n.relativePath === SOCIAL_IMAGE)
+      : null
 
   const metaDescription = description || site.siteMetadata.description
 
@@ -77,8 +91,8 @@ function SEO({ description, lang, meta, title }) {
         {
           property: `og:image`,
           content: (function () {
-            if (file && file.publicURL && site.siteMetadata.siteUrl) {
-              return `${site.siteMetadata.siteUrl}${file.publicURL}`
+            if (fileNode && fileNode.publicURL && site.siteMetadata.siteUrl) {
+              return `${site.siteMetadata.siteUrl}${fileNode.publicURL}`
             }
             if (site.siteMetadata.siteUrl && site.siteMetadata.image) {
               return `${site.siteMetadata.siteUrl}${site.siteMetadata.image}`
@@ -89,8 +103,8 @@ function SEO({ description, lang, meta, title }) {
         {
           name: `twitter:image`,
           content: (function () {
-            if (file && file.publicURL && site.siteMetadata.siteUrl) {
-              return `${site.siteMetadata.siteUrl}${file.publicURL}`
+            if (fileNode && fileNode.publicURL && site.siteMetadata.siteUrl) {
+              return `${site.siteMetadata.siteUrl}${fileNode.publicURL}`
             }
             if (site.siteMetadata.siteUrl && site.siteMetadata.image) {
               return `${site.siteMetadata.siteUrl}${site.siteMetadata.image}`
