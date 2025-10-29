@@ -55,15 +55,34 @@ function SEO({
       : null
 
   // Build absolute URLs for images (prefer passed image prop over file lookup over siteMetadata)
+  const ensureNoDoubleSlash = (base, path) => {
+    if (!base || !path) return undefined
+    // Remove trailing slash from base and leading slash from path
+    const cleanBase = base.replace(/\/$/, "")
+    const cleanPath = path.replace(/^\//, "")
+    return `${cleanBase}/${cleanPath}`
+  }
+
   const absoluteImageUrl = image
-    ? `${site.siteMetadata.siteUrl}${image}`
+    ? ensureNoDoubleSlash(site.siteMetadata.siteUrl, image)
     : fileNode && fileNode.publicURL
-      ? `${site.siteMetadata.siteUrl}${fileNode.publicURL}`
+      ? ensureNoDoubleSlash(site.siteMetadata.siteUrl, fileNode.publicURL)
       : site.siteMetadata.image
-        ? `${site.siteMetadata.siteUrl}${site.siteMetadata.image}`
+        ? ensureNoDoubleSlash(
+            site.siteMetadata.siteUrl,
+            site.siteMetadata.image
+          )
         : undefined
 
   const metaDescription = description || site.siteMetadata.description
+
+  // Debug logging
+  console.log("SEO Component Debug:", {
+    fileNode: fileNode?.publicURL,
+    siteUrl: site.siteMetadata.siteUrl,
+    finalImageUrl: absoluteImageUrl,
+    socialImage: SOCIAL_IMAGE,
+  })
 
   return (
     <Helmet
