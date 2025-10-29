@@ -13,9 +13,17 @@ import { useStaticQuery, graphql } from "gatsby"
 // Filename for the site's default social preview image (kept as a constant
 // so it can be changed in one place). This file should live under
 // `src/images/` (we'll look it up via GraphQL `allFile` at build time).
-const SOCIAL_IMAGE = "_banner.svg"
+const SOCIAL_IMAGE = "2024booksread.png"
 
-function SEO({ description, lang, meta, title }) {
+function SEO({
+  description,
+  lang,
+  meta = [],
+  title,
+  image,
+  canonical,
+  locale = "en_CA",
+}) {
   const { site, allFile } = useStaticQuery(graphql`
     query {
       site {
@@ -45,6 +53,15 @@ function SEO({ description, lang, meta, title }) {
     allFile && allFile.nodes
       ? allFile.nodes.find((n) => n.relativePath === SOCIAL_IMAGE)
       : null
+
+  // Build absolute URLs for images (prefer passed image prop over file lookup over siteMetadata)
+  const absoluteImageUrl = image
+    ? `${site.siteMetadata.siteUrl}${image}`
+    : fileNode && fileNode.publicURL
+      ? `${site.siteMetadata.siteUrl}${fileNode.publicURL}`
+      : site.siteMetadata.image
+        ? `${site.siteMetadata.siteUrl}${site.siteMetadata.image}`
+        : undefined
 
   const metaDescription = description || site.siteMetadata.description
 
@@ -89,28 +106,22 @@ function SEO({ description, lang, meta, title }) {
         },
         // Social images (absolute URLs)
         {
-          property: `og:image`,
-          content: (function () {
-            if (fileNode && fileNode.publicURL && site.siteMetadata.siteUrl) {
-              return `${site.siteMetadata.siteUrl}${fileNode.publicURL}`
-            }
-            if (site.siteMetadata.siteUrl && site.siteMetadata.image) {
-              return `${site.siteMetadata.siteUrl}${site.siteMetadata.image}`
-            }
-            return undefined
-          })(),
+          property: "og:image",
+          content: absoluteImageUrl,
         },
         {
-          name: `twitter:image`,
-          content: (function () {
-            if (fileNode && fileNode.publicURL && site.siteMetadata.siteUrl) {
-              return `${site.siteMetadata.siteUrl}${fileNode.publicURL}`
-            }
-            if (site.siteMetadata.siteUrl && site.siteMetadata.image) {
-              return `${site.siteMetadata.siteUrl}${site.siteMetadata.image}`
-            }
-            return undefined
-          })(),
+          name: "twitter:image",
+          content: absoluteImageUrl,
+        },
+        {
+          property: "og:locale",
+          content: locale,
+        },
+        canonical && {
+          rel: "canonical",
+          href: canonical.startsWith("http")
+            ? canonical
+            : `${site.siteMetadata.siteUrl}${canonical}`,
         },
         {
           property: `og:site_name`,
@@ -133,12 +144,16 @@ SEO.defaultProps = {
   lang: `en`,
   meta: [],
   description: ``,
+  locale: "en_CA",
 }
 
 SEO.propTypes = {
   description: PropTypes.string,
   lang: PropTypes.string,
   meta: PropTypes.arrayOf(PropTypes.object),
+  image: PropTypes.string,
+  canonical: PropTypes.string,
+  locale: PropTypes.string,
   title: PropTypes.string.isRequired,
 }
 
