@@ -13,7 +13,7 @@ import { useStaticQuery, graphql } from "gatsby"
 // Filename for the site's default social preview image (kept as a constant
 // so it can be changed in one place). This file should live under
 // `src/images/` (we'll look it up via GraphQL `allFile` at build time).
-const SOCIAL_IMAGE = "2024booksread.png"
+const SOCIAL_IMAGE = "cropped_solid_blue.png"
 
 function SEO({
   description,
