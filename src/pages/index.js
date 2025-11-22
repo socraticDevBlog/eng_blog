@@ -1,13 +1,13 @@
-import React from "react";
-import { graphql, StaticQuery } from "gatsby";
-import Layout from "../components/layout";
-import SEO from "../components/seo";
-import Post from "../components/post";
-import PageLinks from "../components/page-links";
+import React from "react"
+import { graphql, StaticQuery } from "gatsby"
+import Layout from "../components/layout"
+import SEO from "../components/seo"
+import Post from "../components/post"
+import PageLinks from "../components/page-links"
 
 const IndexPage = () => {
-  const postsPerPage = 12;
-  let numberOfPages;
+  const postsPerPage = 12
+  let numberOfPages
   return (
     <Layout pageTitle="">
       <SEO
@@ -24,7 +24,7 @@ const IndexPage = () => {
       />
       <StaticQuery
         query={indexQuery}
-        render={data => {
+        render={(data) => {
           numberOfPages = Math.ceil(
             data.allMarkdownRemark.totalCount / postsPerPage
           )
@@ -53,10 +53,7 @@ const IndexPage = () => {
 
 const indexQuery = graphql`
   query MyQuery {
-    allMarkdownRemark(
-      sort: { fields: [frontmatter___date], order: DESC }
-      limit: 5
-    ) {
+    allMarkdownRemark(sort: { frontmatter: { date: DESC } }, limit: 5) {
       totalCount
       edges {
         node {
