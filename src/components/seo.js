@@ -76,14 +76,6 @@ function SEO({
 
   const metaDescription = description || site.siteMetadata.description
 
-  // Debug logging
-  console.log("SEO Component Debug:", {
-    fileNode: fileNode?.publicURL,
-    siteUrl: site.siteMetadata.siteUrl,
-    finalImageUrl: absoluteImageUrl,
-    socialImage: SOCIAL_IMAGE,
-  })
-
   return (
     <Helmet
       htmlAttributes={{
