@@ -5,6 +5,7 @@ author: "SocraticDev"
 image: ../../images/camus-la-peste.png
 tags:
   - philosophy
+is_archived: true
 ---
 
 The novel _The Plague_ by Albert Camus was published in June 1947. Since the start of the Covid-19 pandemic, many readers have obtained a copy of the book or have searched their libraries to reread it.

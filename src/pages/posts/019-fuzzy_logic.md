@@ -5,6 +5,7 @@ author: "SocraticDev"
 image: ../../images/fuzzy-logic.png
 tags:
   - programming
+is_archived: true
 ---
 
 Fuzzy logic is based on the theory of fuzzy sets developed by the mathematician and engineer Lotfi Aliasker Zadeh in 1965. Fuzzy logic facilitates the modeling of logical reasoning operated on vague or imprecise propositions like "Elena is young" or "The water is hot". It belongs to the family of many-valued logics. Contrary to classical logic operating on two truth values ​​(true and false), fuzzy logic allows inferences to be drawn from premises which are neither true nor false, but which have a certain degree of truth.

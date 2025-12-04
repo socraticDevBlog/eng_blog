@@ -6,6 +6,7 @@ image: ../../images/founder-mode3.png
 tags:
   - ideas
   - business
+is_archived: true
 ---
 
 Latest blog post by YC founder Paul Graham is a good one

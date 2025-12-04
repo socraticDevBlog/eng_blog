@@ -6,6 +6,7 @@ image: ../../images/tfswitch.png
 tags:
   - technology
   - productivity
+is_archived: true
 ---
 
 Either on your local machine or on the CI/CD pipeline, warrensbox's `tfswitch` lets you change Terraform's version on the fly.

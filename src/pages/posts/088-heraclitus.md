@@ -6,6 +6,7 @@ image: ../../images/alchemy.png
 tags:
   - growth
   - philosophy
+is_archived: true
 ---
 
 <b> JACK

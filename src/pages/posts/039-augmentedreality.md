@@ -6,6 +6,7 @@ image: ../../images/microsoftMilitary.png
 tags:
   - technology
   - Microsoft
+is_archived: true
 ---
 
 An important deal between `Microsoft` and the Pentagon validates the Augmented Reality (AR) importance for the future. It is a contract where `Microsoft` promises to deliver "more than 120,000 devices based on its `HoloLens` augmented reality headset. The contract is estimated to be worth around \$21 billions over a 10 years span. This contract comes a year and a half after `Microsoft` won a \$10 billion contract for an `Azure` cloud contract from the Pentagon.

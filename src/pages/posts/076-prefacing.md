@@ -6,6 +6,7 @@ image: ../../images/prefacing.png
 tags:
   - fun
   - growth
+is_archived: true
 ---
 
 What I want to emphasize here is the collective awareness by social networks

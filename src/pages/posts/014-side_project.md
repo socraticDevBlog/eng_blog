@@ -6,6 +6,7 @@ image: ../../images/sideproject.jpg
 tags:
   - productivity
   - business
+is_archived: true
 ---
 
 > The most successful personal projects are those whose main objective is to solve our own problems. It is impossible to lose by doing this. Because by solving our own problems, at least, we make our lives easier.

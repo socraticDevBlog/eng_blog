@@ -7,6 +7,7 @@ tags:
   - gitlab
   - terraform
   - foss
+is_archived: true
 ---
 `UPDATE (2021-09-18): publishing projects as 'Packages' via GitLab's Registry is a more viable option than using ssh to access foreign repository` 
 

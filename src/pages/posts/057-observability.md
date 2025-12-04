@@ -6,6 +6,7 @@ image: ../../images/observability.png
 tags:
   - ideas
   - cloud
+is_archived: true
 ---
 
 Observability is a trending topic in cloud native software systems. 

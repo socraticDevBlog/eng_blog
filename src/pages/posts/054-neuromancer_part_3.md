@@ -5,6 +5,7 @@ author: "SocraticDev"
 image: ../../images/neuromancer-chapter3.png
 tags:
   - novel
+is_archived: true
 ---
 (final update: friday july 1st)
 

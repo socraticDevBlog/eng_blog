@@ -6,6 +6,7 @@ image: ../../images/dilbert-low-hanging-fruit.png
 tags:
   - productivity
   - growth
+is_archived: true
 ---
 
 Much like the blank page syndrome for a writer, the unstarted project is a plague known to all developers. Often times, we tend to want to craft a perfect project. Most of the time, our ideas die in the bud. With the availability of powerful and often free resources, we have no excuse for not having anything concrete to add to our portfolio.

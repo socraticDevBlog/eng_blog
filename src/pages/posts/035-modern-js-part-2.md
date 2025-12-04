@@ -5,6 +5,7 @@ author: "SocraticDev"
 image: ../../images/javascript-blog-two.png
 tags:
   - programming
+is_archived: true
 ---
 
 Let's resume our discovery of some nice JavaScript features.

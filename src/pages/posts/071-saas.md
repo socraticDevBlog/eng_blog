@@ -7,6 +7,7 @@ tags:
   - business
   - technology
   - papers serie
+is_archived: true
 ---
 
 Economics can make or break your SaaS(Software as a Service) product. How? Consumers

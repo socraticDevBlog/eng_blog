@@ -56,7 +56,10 @@ module.exports = {
             },
             query: `
               {
-                allMarkdownRemark(sort: {frontmatter: {date: DESC}}) {
+                allMarkdownRemark(
+                  sort: {frontmatter: {date: DESC}}
+                  filter: { frontmatter: { is_archived: { eq: false } } }
+                ) {
                 edges {
                   node {
                     excerpt

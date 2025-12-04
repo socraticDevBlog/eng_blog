@@ -6,6 +6,7 @@ image: ../../images/pareto-principle.png
 tags:
   - ideas
   - productivity
+is_archived: true
 ---
 
 > it requires a lot of thought to stay on top of what actions will produce the best value

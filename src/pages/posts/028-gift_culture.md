@@ -6,6 +6,7 @@ image: ../../images/gift-economy.png
 tags:
 - philosophy
 - growth
+is_archived: true
 ---
 
 ``Gift Culture``, also known as ``Gift Economy``, is a social exchange system adopted by some human societies when resources are in abundance. In societes where everyone's needs are taken care off, anthropologists have seen this curious phenomenon where the act of giving away ones own wealth makes him richer and elevates his social status. In aboriginal cultures, in mild climates where food is abundant, they have witnessed gift culture happening. On America's West Coast, there is ``potlach`` ceremonies where tribal leaders massively distribute gifts to their community. This culture of generosity is also present in show business and among the really wealthy.

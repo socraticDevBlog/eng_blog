@@ -5,6 +5,7 @@ author: "SocraticDev"
 image: ../../images/copypaste.png
 tags:
   - fun
+is_archived: true
 ---
 
 I find ``Rule 4`` to be inspiring!

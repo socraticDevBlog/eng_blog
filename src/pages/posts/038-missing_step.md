@@ -6,6 +6,7 @@ image: ../../images/missing-stair.png
 tags:
   - philosophy
   - growth
+is_archived: true
 ---
 
 Imagine entering an unfamiliar house and immediately you notice that a step is missing from the main staircase. You worry out loud about the danger this represents. But the host silences you:

@@ -6,6 +6,7 @@ image: ../../images/malan-banner.png
 tags:
   - programming
   - fun
+is_archived: true
 ---
 
 David J. Malan is Harvard most famous current computer science professor. I realized

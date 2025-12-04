@@ -6,6 +6,7 @@ image: ../../images/bloombergterminal.png
 tags:
   - business
   - technology
+is_archived: true
 ---
 
 In technology, one can either innovate or imitate others.

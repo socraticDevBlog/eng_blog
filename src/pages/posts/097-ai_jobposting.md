@@ -6,6 +6,7 @@ image: ../../images/navigating.webp
 tags:
   - career
   - ai
+is_archived: true
 ---
 
 This new blog post builds on a previous popular article where we provided guidance to job seekers on excelling in interviews ([A Short Guide to the Perfect Job Seeker](https://en.socratic.dev/a-short-guide-to-the-perfect-job-seeker/)).

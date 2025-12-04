@@ -6,6 +6,7 @@ image: ../../images/flow_state_blog.png
 tags:
   - productivity
   - growth
+is_archived: true
 ---
 
 When our working tool is the intellect, the ability to maintain deep concentration for a long period of time can make all the difference between great successes and ordinary results.

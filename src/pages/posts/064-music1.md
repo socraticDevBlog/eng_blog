@@ -6,6 +6,7 @@ image: ../../images/socdevblogmusic.png
 tags:
   - ideas
   - music
+is_archived: true
 ---
 
 Most developers believe that listening to music while working

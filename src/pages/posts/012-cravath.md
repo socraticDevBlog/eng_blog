@@ -6,6 +6,7 @@ image: ../../images/airport.jpg
 tags:
   - business
   - productivity
+is_archived: true
 ---
 
 Being hired by a 'high-end' consulting firm is, for many freshly graduated students, like having won the lottery. Large firms pay excellent wages and benefits. They can therefore afford to hire only

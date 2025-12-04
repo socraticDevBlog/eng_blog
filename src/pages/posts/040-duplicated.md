@@ -5,6 +5,7 @@ author: "SocraticDev"
 image: ../../images/dupeGuru.png
 tags:
   - productivity
+is_archived: true
 ---
 
 As time passes by, our hard drives fill up with a lot of files. As we are using various cloud storage providers like `dropbox` or `oneDrive` and working from different machines, we often end up having the same files in duplicate, triplicate, etc. 

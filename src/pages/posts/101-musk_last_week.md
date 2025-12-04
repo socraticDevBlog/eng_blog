@@ -6,6 +6,7 @@ image: ../../images/workplace.png
 tags:
   - boss
   - growth
+is_archived: true
 ---
 
 > "Elon Musk threatens FBI agents and air traffic controllers with forced resignation if they do not respond to an email."

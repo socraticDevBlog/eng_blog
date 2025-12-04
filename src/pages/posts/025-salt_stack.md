@@ -6,6 +6,7 @@ image: ../../images/saltstack.png
 tags:
   - productivity
   - technology
+is_archived: true
 ---
 
 SaltStack is a high-speed platform for provisioning and controlling distributed computing resources. ``Salt Cloud`` is a configuration management tool that allows users to provision systems on cloud hosts or hypervisors. During installation, ``Salt Cloud`` installs ``Salt`` on all provisioned systems by default. This enables the user to put systems into the desired state during provisioning. 

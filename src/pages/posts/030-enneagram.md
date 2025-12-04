@@ -6,6 +6,7 @@ image: ../../images/enneagram.jpg
 tags:
 - philosophy
 - growth
+is_archived: true
 ---
 
 The archaeological site of the Temple of Delphi in Greece is perched high on the side of Mount Parnassus, less than 200km from downtown Athens. This sanctuary is recognized for its vocation as an oracle. In exchange for offerings, in ancient Greece, one could address any question to the gods and hope to receive a sensible answer.

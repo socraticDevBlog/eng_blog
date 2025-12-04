@@ -6,6 +6,7 @@ image: ../../images/interview-banner.png
 tags:
   - career
   - growth
+is_archived: true
 ---
 
 Employers go to great lengths to ensure a perfect match in the recruitment process. But what about job seekers?

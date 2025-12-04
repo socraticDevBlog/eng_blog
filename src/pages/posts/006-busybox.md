@@ -6,6 +6,7 @@ image: ../../images/busybox.jpg
 tags:
   - linux
   - technology
+is_archived: true
 ---
 BusyBox (_box occupied_) considers itself the Swiss Army Knife of Linux for embedded systems. BusyBox combines minimal versions of several UNIX utilities into a small executable file. The utilities offered by BusyBox are less complete than those available in full distributions like Ubuntu and CentOS. However, it provides substantially all the functionality expected from a Linux system such as `` ls``, `` vi``, `` chmod``, etc.
 

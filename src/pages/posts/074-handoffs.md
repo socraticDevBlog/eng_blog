@@ -5,6 +5,7 @@ author: "socraticDev"
 image: ../../images/handoff.png
 tags:
   - productivity
+is_archived: true
 ---
 
 Building, delivering, and maintaining software systems is a process aimed at

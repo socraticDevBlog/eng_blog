@@ -6,6 +6,7 @@ image: ../../images/openai.png
 tags:
   - business
   - philosophy
+is_archived: true
 ---
 
 At the end of the day last Friday, the OpenAI board of directors surprised the world

@@ -25,8 +25,9 @@ const IndexPage = () => {
       <StaticQuery
         query={indexQuery}
         render={(data) => {
-          numberOfPages = Math.ceil(
-            data.allMarkdownRemark.totalCount / postsPerPage
+          numberOfPages = Math.max(
+            1,
+            Math.ceil(data.allMarkdownRemark.totalCount / postsPerPage)
           )
           return (
             <div>
@@ -53,7 +54,11 @@ const IndexPage = () => {
 
 const indexQuery = graphql`
   query MyQuery {
-    allMarkdownRemark(sort: { frontmatter: { date: DESC } }, limit: 5) {
+    allMarkdownRemark(
+      sort: { frontmatter: { date: DESC } }
+      limit: 5
+      filter: { frontmatter: { is_archived: { eq: false } } }
+    ) {
       totalCount
       edges {
         node {

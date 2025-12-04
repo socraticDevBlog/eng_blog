@@ -8,6 +8,7 @@ tags:
   - foss
   - productivity
   - fun
+is_archived: true
 ---
 
 Odroid HC4 is a single board computer (SBC) enclosed by a plastic shell featuring two SATA slots.  Two hard-drives (HDD or SSD) can be dedicated to

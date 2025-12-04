@@ -7,6 +7,7 @@ tags:
   - growth
   - ai
   - devops
+is_archived: true
 ---
 
 __First part of a series on integrating artificial intelligence into DevOps practices__

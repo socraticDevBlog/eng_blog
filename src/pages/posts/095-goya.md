@@ -6,6 +6,7 @@ image: ../../images/goya-sabbathwitches.png
 tags:
   - stories
   - ideas
+is_archived: true
 ---
 
 A giant copy of a Goya painting is placed on the floor to the right of the large bed, against the bare white wall.

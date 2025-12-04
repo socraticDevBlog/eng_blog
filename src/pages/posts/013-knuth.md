@@ -6,6 +6,7 @@ image: ../../images/knuth.jpg
 tags:
   - philosophy
   - programming
+is_archived: true
 ---
 
  > Donald Knuth is an American computer scientist, mathematician, and professor emeritus at Stanford University. He is the 1974 recipient of the ACM Turing Award, informally considered the Nobel Prize of computer science.

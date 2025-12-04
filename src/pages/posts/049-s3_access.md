@@ -6,6 +6,7 @@ image: ../../images/s3-new-access.png
 tags:
   - twitter
   - cloud
+is_archived: true
 ---
 
 Wasting my time on twitter today, I read this tweet from the expert in

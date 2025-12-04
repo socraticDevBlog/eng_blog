@@ -5,6 +5,7 @@ author: "SocraticDev"
 image: ../../images/closure-blog.png
 tags:
   - programming
+is_archived: true
 ---
 
 I wasn't taught `functional programming` in school. Workplaces didn't use it explicitely. Nevertheless, I've been intrigued about this other way of programming for some times.

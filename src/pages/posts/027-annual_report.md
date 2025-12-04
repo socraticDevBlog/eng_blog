@@ -5,6 +5,7 @@ author: "SocraticDev"
 image: ../../images/board-meeting.jpg
 tags:
 - blogging
+is_archived: true
 ---
 
 Current SocraticDev blog's website went live a little less than a year ago: on ``October 17, 2019``. The blog previously benefited from free hosting on the ``wordpress.com``  platform. Despite the ease of putting a site online and adding content to it, I wanted absolute control over my content. As a programmer, you just have to take care of building and putting your personal blog online. Fun fact : the creation of a personal blog site is non-ironically the basic project for all JavaScript frameworks available on the market 😉
