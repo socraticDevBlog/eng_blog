@@ -5,6 +5,7 @@ author: "socraticDev"
 image: ../../images/opentowork.png
 tags:
   - career
+is_archived: true
 ---
 
 After Elon Musk started laying off people at Twitter in late 2022, tech workers are slowly going through the different stages of dealing with it. The job market opening up to remote work and big companies being a bit more careful with spending has made it tougher for people looking for jobs. It's harder than what the new generation was used to.

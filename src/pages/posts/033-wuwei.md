@@ -6,6 +6,7 @@ image: ../../images/wave.png
 tags:
   - philosophy
   - growth
+is_archived: true
 ---
 
 Against a commonly accepted ideology imposing self-actualisation and perpetual state of hustling as moral values, lays a calm principle layed upon a complete metaphysical system of the world.

@@ -6,6 +6,7 @@ image: ../../images/descartes_rails.png
 tags:
   - philosophy
   - programming
+is_archived: true
 ---
 
 The world of software development celebrates innovators. Those who

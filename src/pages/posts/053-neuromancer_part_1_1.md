@@ -5,6 +5,7 @@ author: "SocraticDev"
 image: ../../images/neuromancer-part-2.png
 tags:
   - novel
+is_archived: true
 ---
 (last updated: friday 2022-06-17)
 

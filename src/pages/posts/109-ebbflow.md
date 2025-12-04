@@ -7,6 +7,7 @@ tags:
   - ideas
   - career
   - growth
+is_archived: true
 ---
 
 Comparing the software development lifecycle (SDLC) with the tidal cycle illuminates an obscure aspect of the profession. If you live far from the sea, then I suggest comparing it with the cycle of seasons. If you live where there are neither tides nor seasons, then you might be living in a data center!

@@ -6,6 +6,7 @@ image: ../../images/terraform-upgrade.png
 tags:
   - terraform
   - devops
+is_archived: true
 ---
 
 > "Terraform is an open-source tool used for automating and managing infrastructure in the cloud. It allows you to define your infrastructure (such as servers, databases, and networks) using a high-level configuration language (called HCL – HashiCorp Configuration Language) in a way that is declarative—you describe the end state of your resources, and Terraform figures out how to achieve that."

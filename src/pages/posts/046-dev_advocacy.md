@@ -6,6 +6,7 @@ image: ../../images/dev-advocacy.png
 tags:
   - growth
   - career
+is_archived: true
 ---
 Software is driving every aspects of the economy. At the bottom of the industry are the software developers. Developers are software artisans. That's great and not so great at the same time. Not so great because they are often victims of pressure and friction from colleagues and the business they are serving.
 

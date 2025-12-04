@@ -5,6 +5,7 @@ author: "SocraticDev"
 image: ../../images/demarco.jpg
 tags:
   - technology
+is_archived: true
 ---
 
 It would be shortsighted to consider software development a sacred craft that should steer clear of financial pressures or business concerns. As a software developer I dedicate every worktime minute to increase the value of my employer’s services and products. If I stop doing that, he’ll have every right to severe his ties with me. In the same spirit, our clients and employers have to be diligent and assess our value by our contribution to the success of their enterprises. Easier said than done, eh !?

@@ -6,6 +6,7 @@ image: ../../images/circlejerk.png
 tags:
   - career
   - growth
+is_archived: true
 ---
 
 I sometimes wonder if it bothers people that I post hyperlinks

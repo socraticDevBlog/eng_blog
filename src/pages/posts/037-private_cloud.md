@@ -7,6 +7,7 @@ tags:
   - technology
   - security
   - productivity
+is_archived: true
 ---
 
 If you have a large volume of data or if you require a certain level of security for your documents, the use of a ``NAS`` (network attached storage) could meet your needs. Hosting a large volume of data in the cloud is expensive. Storing unencrypted documents in the public cloud is risky.

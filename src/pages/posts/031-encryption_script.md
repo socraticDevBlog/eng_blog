@@ -7,6 +7,7 @@ tags:
   - security
   - programming
   - linux
+is_archived: true
 ---
 
 A good file backup strategy is to keep a copy of the files on a different physical medium than the original as well as a copy of the same files in another physical location. An excellent option for undertaking your backups at a different location is to send them to the `cloud`. We can often use a free option with the big players `Google`,` Microsoft` or `Dropbox`.

@@ -6,6 +6,7 @@ image: ../../images/expect.png
 tags:
   - linux
   - productivity
+is_archived: true
 ---
 
 ``Expect`` is a ``TCL`` based utility which excels in automating interactive tasks.

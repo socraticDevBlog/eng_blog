@@ -6,6 +6,7 @@ image: ../../images/pinochio.jpg
 tags:
   - philosophy
   - programming
+is_archived: true
 ---
 
 Programming is establishing a complex path where, no matter what information flows through it, the executed program accomplishes the desired functionalities. Otherwise it's a bug to fix!

@@ -6,6 +6,7 @@ image: ../../images/k8s-pod-security.png
 tags:
   - security
   - devops
+is_archived: true
 ---
 
 _Shifting left on security_ means to start integrating security practices

@@ -6,6 +6,7 @@ image: ../../images/humanfightingai.png
 tags:
  - ideas
  - philosophy
+is_archived: true
 ---
 
 Daring to reflect and question our conception of humanity will be the most productive form of resistance to artificial intelligence, more so than refusing to use AI at work.

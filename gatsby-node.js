@@ -26,7 +26,9 @@ exports.createPages = ({ actions, graphql }) => {
 
   return graphql(`
     {
-      allMarkdownRemark {
+      allMarkdownRemark(
+        filter: { frontmatter: { is_archived: { eq: false } } }
+      ) {
         edges {
           node {
             frontmatter {
@@ -40,7 +42,7 @@ exports.createPages = ({ actions, graphql }) => {
         }
       }
     }
-  `).then(res => {
+  `).then((res) => {
     if (res.errors) return Promise.reject(res.errors)
 
     const posts = res.data.allMarkdownRemark.edges
@@ -58,7 +60,7 @@ exports.createPages = ({ actions, graphql }) => {
     })
 
     let tags = []
-    _.each(posts, edge => {
+    _.each(posts, (edge) => {
       // si un post n'a pas de tag, alors on ne fait rien
       //
       if (_.get(edge, "node.frontmatter.tags")) {
@@ -67,7 +69,7 @@ exports.createPages = ({ actions, graphql }) => {
     })
 
     let tagPostCounts = {}
-    tags.forEach(tag => {
+    tags.forEach((tag) => {
       tagPostCounts[tag] = (tagPostCounts[tag] || 0) + 1
     })
 
@@ -86,7 +88,7 @@ exports.createPages = ({ actions, graphql }) => {
 
     // creating tag posts page
     //
-    tags.forEach(tag => {
+    tags.forEach((tag) => {
       createPage({
         path: `/tag/${slugify(tag)}`,
         component: templates.tagPosts,
@@ -111,7 +113,7 @@ exports.createPages = ({ actions, graphql }) => {
           limit: postsPerPage,
           skip: index * postsPerPage,
           currentPage,
-          pagesCount
+          pagesCount,
         },
       })
     })

@@ -8,6 +8,7 @@ tags:
   - productivity
   - communication
   - ideas
+is_archived: true
 ---
 
 I was listening to a podcast during my daily walk and came across an idea discussed by the hosts. It's a podcast related to soft skills in the technology world, and the hosts, with decades of experience in this field, share ideas that are both funny and enlightening.

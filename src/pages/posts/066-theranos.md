@@ -5,6 +5,7 @@ author: "socraticDev"
 image: ../../images/theranos.png
 tags:
   - growth
+is_archived: true
 ---
 
 On Tuesday last week, Elizabeth Holmes reported to prison

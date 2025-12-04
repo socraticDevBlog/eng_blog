@@ -6,6 +6,7 @@ image: ../../images/ipfs.png
 tags:
   - ideas
   - technology
+is_archived: true
 ---
 
 >The Interplanetary File System (`IPFS`) is a distributed file storage protocol

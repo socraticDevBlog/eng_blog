@@ -6,6 +6,7 @@ image: ../../images/boss.jpg
 tags:
   - philosophy
   - productivity
+is_archived: true
 ---
 
 Double ignorance refers to the cognitive state of an individual who is so ignorant that he ignores his own ignorance.

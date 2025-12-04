@@ -5,6 +5,7 @@ author: "SocraticDev"
 image: ../../images/neuromancer-part4.png
 tags:
   - novel
+is_archived: true
 ---
 (final update: sunday july 10th 2022)
 ## part four - The Straylight Run

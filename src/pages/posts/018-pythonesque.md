@@ -5,6 +5,7 @@ author: "SocraticDev"
 image: ../../images/pythonesque.png
 tags:
   - programming
+is_archived: true
 ---
 
 Programming in Python requires us to modify our conception of _good programming_ practices. In enterprise-grade softwares, we aim for application stability and robustness. While the context where we favor the Python language is different. Python is perfectly suited for proofs of concept, automating processes through scripting, etc. In short, when coding in Python, we tend to go fast in order to get immediate results. Some companies boost their development potential by taking advantage of the flexibility of the language invented by Guido van Rossum. This allows them to quickly arrive at an ``MVP`` (minimally viable product). When the project has proven itself, then we recode everything in a enterprise-grade programming language such as ``C++``, ``C#`` or ``Java``.

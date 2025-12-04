@@ -6,6 +6,7 @@ image: ../../images/floridatoilets.png
 tags:
   - philosophy
   - growth
+is_archived: true
 ---
 
 _Let's imagine a world where some people are born with blue hair. However, society has decided not to allow people with blue hair to use certain public facilities. If having blue hair cannot transmit diseases or harm people who do not have blue hair, is this society's decision fair?_

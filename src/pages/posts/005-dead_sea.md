@@ -6,6 +6,7 @@ image: ../../images/deadsea.jpg
 tags:
   - technology
   - productivity
+is_archived: true
 ---
 
 Dead Sea effect is an _anti-pattern_ observed in large organizations ; publics as well as privately owned. The Dead Sea is a large body of water located at the border of Israel and Jordan. Since it is located well below sea-level, the only way for water to escape it is by evaporation. Its water salt concentration is much higher than the oceans (8 times more !) and animal life is impossible.

@@ -6,6 +6,7 @@ image: ../../images/leetcode.png
 tags:
   - growth
   - programming
+is_archived: true
 ---
 
 Leetcode is a web platform that prepares programmers for big tech companies

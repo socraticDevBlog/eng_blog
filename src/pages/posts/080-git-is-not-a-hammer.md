@@ -6,6 +6,7 @@ image: ../../images/3-ci.png
 tags:
   - fun
   - devops
+is_archived: true
 ---
 
 In a world where technology is ubiquitous, the processes behind software development often leave much to be desired.

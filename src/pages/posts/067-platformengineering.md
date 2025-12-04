@@ -7,6 +7,7 @@ image: ../../images/platform-engineering-dalle.png
 tags:
   - ideas
   - devops  
+is_archived: true
 ---
 
 A new concept is getting traction in the software realm: platform

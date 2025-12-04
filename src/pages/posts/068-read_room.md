@@ -6,6 +6,7 @@ image: ../../images/read_the_room.png
 tags:
   - growth
   - ideas
+is_archived: true
 ---
 
 _Reading the room_ is a common english expression referring to a complex social

@@ -6,6 +6,7 @@ image: ../../images/gemini.png
 tags:
   - technology
   - web
+is_archived: true
 ---
 
 How about reading the news on your terminal? And let it be a pleasant experience. The `Gemini` protocol offers an alternative to the `http` web protocol to serve semantically rich content according to client / server dynamics.

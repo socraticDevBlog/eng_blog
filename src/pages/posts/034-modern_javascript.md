@@ -5,6 +5,7 @@ author: "SocraticDev"
 image: ../../images/javascript-blog.png
 tags:
   - programming
+is_archived: true
 ---
 JavaScript, this indispensable programming language on the web, arouses passions. On the one hand, there are fan boys and fan girls who feed on new features, libraries and frameworks. Versus the grumpy and the 'impassive' who tolerate ``JavaScript`` and are often limited to proven frameworks and libraries (like ``jQuery``).
 

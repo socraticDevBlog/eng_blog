@@ -6,6 +6,7 @@ image: ../../images/pastebin-proj.png
 tags:
   - technology
   - productivity
+is_archived: true
 ---
 
 Several database systems, especially "no-sql" databases, offer the option to assign a `TTL` (Time To Live) to each item inserted. This feature is usually used for the lifecycle of items available from cache systems like `CDN` or `DNS`.

@@ -7,6 +7,7 @@ tags:
   - ideas
   - news
   - growth
+is_archived: true
 ---
 
 Exploring the reign of Persian king Cambyses II, particularly in the context of Darius' rise, offers insights into the potential dangers of absolute power concentrated in the hands of a single individual—and the profound consequences it had for those around him.

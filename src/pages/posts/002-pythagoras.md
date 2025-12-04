@@ -5,6 +5,7 @@ author: "SocraticDev"
 image: ../../images/school_athens_pythagoras.jpg
 tags:
   - philosophy
+is_archived: true
 ---
 
 In the software world, we are sometimes trading cybersecurity, clean architecture and just basic good practice concerns to convenience. Sometimes rightly so …

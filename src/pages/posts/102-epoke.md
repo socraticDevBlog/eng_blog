@@ -6,6 +6,7 @@ image: ../../images/emerveillement.png
 tags:
   - philosophy
   - growth
+is_archived: true
 ---
 
 Before interrupting someone or diving into an argumentative debate, it’s essential to pause and suspend our judgment. This article explores why this approach, far from being just an intellectual exercise, is actually the key to profound wisdom.

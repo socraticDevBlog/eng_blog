@@ -6,6 +6,7 @@ image: ../../images/odroidh4c.png
 tags:
   - technology
   - interview
+is_archived: true
 ---
 
 A well-known figure on ``IRC`` (_Internet Relay Chat_), Denver, Colorado based developer ``Googlebot`` is a ``GNU/Linux`` aficionado who digs deep into tech. He introduced me lately to the joy of open-source ``NAS`` (_Network-attached storage_) via the ``ODROID HC-4``: a clever new ARM-powered board protected by a transparent plastic hard shell. Taking time off from his busy schedule, ``Googlebot`` kindly answered my questions about this low-cost alternative to offsite cloud storage.

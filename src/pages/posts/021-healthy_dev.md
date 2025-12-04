@@ -7,6 +7,7 @@ tags:
   - technology
   - growth
   - career
+is_archived: true
 ---
 
 In a career, we often meet this type: ``the disillusioned guy who has seen everything and who likes to complain about everything and nothing``. Personally, I am fascinated by their words because they are usually true and raw. The expression of a visceral (and suffering) truth for this individual. However, I will also be seen avoiding these people out of modesty in the face of the expression of acquired helplessness ...

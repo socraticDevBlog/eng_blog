@@ -6,6 +6,7 @@ image: ../../images/billfrisel-lage.png
 tags:
   - philosophy
   - growth
+is_archived: true
 ---
 
 Distracted by vain thoughts throughout their lives, failing to transmute their experiences into wise maturity, in their elderly bodies, they still feel like adolescents

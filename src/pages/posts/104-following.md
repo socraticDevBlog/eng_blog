@@ -7,6 +7,7 @@ tags:
   - philosophy
   - ideas
   - growth
+is_archived: true
 ---
 
 Spoiler alert!

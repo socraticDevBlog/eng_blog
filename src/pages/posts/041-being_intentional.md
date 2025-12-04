@@ -6,6 +6,7 @@ image: ../../images/buck.jpg
 tags:
   - philosophy
   - growth
+is_archived: true
 ---
 Professional software developers occupy a paradoxical position on the totem pole. We are both at the top ... and more often at the bottom. We are at the top because we are ones who add value to software by adding features or fixing issues. We are at the bottom because shit flows downhill. An array of non-technical specialists hover around software but, at the end of the day, coders are the one who implement and maintain their designs. 
 
