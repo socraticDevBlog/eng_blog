@@ -5,7 +5,7 @@ author: "SocraticDev"
 image: ../../images/diver.jpg
 tags:
   - philosophy
-is_archived: true
+is_archived: false
 ---
 
 Under daily life noise there is a calm and pacific realm. The medecine professor Jon Kabat-Zinn puts forward the analogy of the storm at sea to illustrate the superficiality of most of our concerns. At sea level we fear the most violent storm, but a couple of dozen feet below : everything is calm and still. Defined as a quest to wisdom, philosophy wakes us up from the slumber of ignorance. It puts forward 'alarm clocks' whom, if we accept their authority, force us to realize the unsoundness of our noisy opinions.

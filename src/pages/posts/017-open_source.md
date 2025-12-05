@@ -6,7 +6,7 @@ image: ../../images/open-source.png
 tags:
   - technology
   - business
-is_archived: true
+is_archived: false
 ---
 
 The labels `` FOSS`` and `` F/OSS`` ('Free and Open-Source Software' and 'Free / Libre and Open-Source Software') describe a development model for open source software. According to a flexible legal license, everyone is allowed to execute, study and redistribute the source code. As well as provide extra features in order to sell it as product or service. This type of software differs from proprietary software whose source code is protected, more difficult to modify and whose use is chargeable.

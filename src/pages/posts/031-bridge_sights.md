@@ -6,7 +6,7 @@ image: ../../images/bridgesights.png
 tags:
 - growth
 - career
-is_archived: true
+is_archived: false
 ---
 
 In the Italy of Renaissance, small northern city-states were in a constant state of war with each other. These cities were commercially prosperous but lacked proper military resources. Thus they outsourced military duties to outside contractors; to mercenaries known as _Condotierre_.

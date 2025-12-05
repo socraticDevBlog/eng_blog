@@ -6,7 +6,7 @@ image: ../../images/vocabulary-zoomer.jpg
 tags:
 - fun
 - growth
-is_archived: true
+is_archived: false
 ---
 (updated with new words: garbo) 
  

@@ -5,7 +5,7 @@ author: "SocraticDev"
 image: ../../images/randy.jpg
 tags:
   - philosophy
-is_archived: true
+is_archived: false
 ---
 
 In reading Randy Pausch's book "The Last Lecture", the reader accompanies a man spending his last months preparing to leave life.
