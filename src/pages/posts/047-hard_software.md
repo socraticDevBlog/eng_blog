@@ -6,7 +6,7 @@ image: ../../images/blogHardnenedSoftware.png
 tags:
   - technology
   - ideas
-is_archived: true
+is_archived: false
 ---
 
 Robert States is a mechanical engineer specializing in the design of plastic products. Interviewed about his experience as a partner in the consulting firm [Stress Engineering Services inc.](https://www.stress.com), the engineer describes himself as the character of the film _Pulp Fiction_: Winston Wolf. This character played by Harvey Keitel called urgently to cover up the result of a murder committed in a car by one of the main characters of the film.

@@ -6,6 +6,7 @@ image: ../../images/sbom.png
 tags:
   - ideas
   - security
+is_archived: false
 ---
 
 An SBOM is the dependency graph of software so that you can

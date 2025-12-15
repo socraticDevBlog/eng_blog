@@ -5,7 +5,7 @@ author: "SocraticDev"
 image: ../../images/neuromancer-chapter2.png
 tags:
   - novel
-is_archived: true
+is_archived: false
 ---
 
 > "Case was the sharpest data thief in the Matrix, until an ex-employer crippled his nervous system.

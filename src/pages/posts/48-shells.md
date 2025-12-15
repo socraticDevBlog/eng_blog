@@ -6,7 +6,7 @@ image: ../../images/shell_blog.png
 tags:
   - technology
   - linux
-is_archived: true
+is_archived: false
 ---
 
 Any computerized system is a complex structure based on several layers of software protocols and hardware elements. The `OSI` model starts from the physical layer, electrical impulses to end on the application layer. For ordinary mortals, the application layer is an attractive user interface (`UI` for _user interface_): a web or mobile application.
