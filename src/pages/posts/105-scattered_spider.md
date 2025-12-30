@@ -5,7 +5,7 @@ author: "SocraticDev"
 image: ../../images/scattered_spiders.png
 tags:
   - security
-is_archived: true
+is_archived: false
 ---
 
 “Nothing in the world is as soft and fluid as water. Yet for dissolving the hard and inflexible, nothing can surpass it.” — Tao Te Ching

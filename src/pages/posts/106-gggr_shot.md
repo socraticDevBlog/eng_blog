@@ -6,7 +6,7 @@ image: ../../images/whattheshotis.png
 tags:
   - growth
   - career
-is_archived: true
+is_archived: false
 ---
 
 _Knowing how to listen and understand before acting is the key to avoiding missteps and progressing, whether in sales or in life._

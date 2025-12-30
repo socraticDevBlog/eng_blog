@@ -7,7 +7,7 @@ tags:
   - growth
   - ideas
   - philosophy
-is_archived: true
+is_archived: false
 ---
 
 What do the founder of PayPal, the French president, and a media tycoon have in common?

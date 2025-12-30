@@ -6,7 +6,7 @@ image: ../../images/linuxfactory-apt.png
 tags:
   - security
   - linux
-is_archived: true
+is_archived: false
 ---
 
 Every week-end or so, I like to update my linux servers to keep them patched

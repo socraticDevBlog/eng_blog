@@ -7,7 +7,7 @@ tags:
   - ai
   - fun
   - growth
-is_archived: true
+is_archived: false
 ---
 
 That's the message Leo Herzog wants to get across. He's an IT specialist working at a college in Michigan, and his little website gives us major nostalgia for those sarcastic web apps like [lmgtfy](https://googlethatforyou.com/) or [no hello](https://nohello.net/) that gently teach people who commit tech faux pas why their behavior is annoying and how to improve it to reduce friction in their communications with us.
