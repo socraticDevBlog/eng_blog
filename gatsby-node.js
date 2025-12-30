@@ -28,6 +28,7 @@ exports.createPages = ({ actions, graphql }) => {
     {
       allMarkdownRemark(
         filter: { frontmatter: { is_archived: { eq: false } } }
+        sort: { frontmatter: { date: DESC } }
       ) {
         edges {
           node {
@@ -101,10 +102,10 @@ exports.createPages = ({ actions, graphql }) => {
     const pagesCount = Math.ceil(posts.length / postsPerPage)
 
     Array.from({ length: pagesCount }).forEach((_, index) => {
-      const isFirstPage = index === 0
       const currentPage = index + 1
 
-      if (isFirstPage) return
+      // Do not create the root page here; `src/pages/index.js` provides `/`.
+      if (index === 0) return
 
       createPage({
         path: `/page/${currentPage}`,
