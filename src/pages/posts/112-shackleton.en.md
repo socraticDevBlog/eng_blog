@@ -11,12 +11,11 @@ is_archived: false
 
 My favorite read of 2025. Between mid-September and mid-October I devoured the 400 pages of this remarkable account, mostly during a few cool October days outside a cabin on the St. Lawrence River while watching freighters pass.
 
-
 ### Alfred Lansing, Endurance: Shackleton's Incredible Voyage
 
 In 1914, an expedition led by Sir Ernest Shackleton set out for Antarctica with twenty-six crew members, sixty-nine dogs, and a cat. Their plan was to cross the continent by dog sled. Fate had other plans: the ship became trapped in the ice and the crew spent nearly two years before they returned to civilization.
 
-***
+---
 
 This book came highly recommended by New York artist Tom Sachs, who summed it up like this:
 
@@ -34,7 +33,6 @@ measurements, then decide with the external factors in mind.
 
 The story also works as a social metaphor: a small group makes critical choices that affect everyone's life. The idea of a minority making weighty decisions can feel uncomfortable. In Shackleton's case, though, you see a leader who acts with humanity and restraint: conflicts happen, but they are managed pragmatically and often admirably.
 
-
 #### Who will like this book
 
 - Anyone traveling along a large river or the sea.
@@ -42,3 +40,5 @@ The story also works as a social metaphor: a small group makes critical choices 
 - Entrepreneurs, technical leaders, artists, and even teachers will get value from this book.
 
 I recommend this book to anyone interested in resilience, leadership, and team spirit.
+
+`translated from french by Claude AI`
