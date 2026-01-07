@@ -2,9 +2,9 @@
 title: "Alfred Lansing, Endurance: Shackleton's Incredible Voyage, 1959"
 date: 2026-01-01
 author: "SocraticDev"
-image: ../../images/shackleton-endurance.png
+image: ../../images/reading2025red.png
 tags:
-  - lecture-2025
+  - reading-2025
   - leadership
 is_archived: false
 ---
