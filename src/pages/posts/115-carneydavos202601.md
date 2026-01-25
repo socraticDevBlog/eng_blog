@@ -43,6 +43,8 @@ rivalry. That the rules-based order is fading. That
 
 > "the strong do what they can, and the weak suffer what they must"
 
+[__note__: The Melian Dialogue by the Greek historian Thucydides recounts how Athens, the European hegemonic power at the time, took possession of a small island in the Cyclades. It is a classic of ancient literature often studied in political philosophy, argumentation theory, and philosophical anthropology. _Though the Melians had ancestral ties to Sparta, they were neutral in the war. Athens invaded Melos in the summer of 416 BC and demanded that the Melians surrender and pay tribute to Athens or face annihilation. The Melians refused, so the Athenians laid siege to their city. Melos surrendered in the winter, and the Athenians executed the men of Melos and enslaved the women and children._(Wikipedia)]
+
 This aphorism of Thucydides is presented as inevitable as the natural logic of
 international relations reasserting itself. And faced with this logic, there is
 a strong tendency for countries to go along to get along. To accommodate. To
@@ -240,4 +242,7 @@ Thank you very much.
 
 ### sources
 
-[ Canada ‘strongly opposes’ tariffs over Greenland, won’t waver on Article 5: Carney ](https://www.youtube.com/watch?v=5UqQTqvhFRg&t=4s)
+[ Canada ‘strongly opposes’ tariffs over Greenland, won’t waver on Article 5:
+Carney ](https://www.youtube.com/watch?v=5UqQTqvhFRg&t=4s)
+
+https://www.wikiwand.com/en/articles/Siege_of_Melos
