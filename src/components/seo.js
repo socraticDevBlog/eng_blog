@@ -23,6 +23,9 @@ function SEO({
   image,
   canonical,
   locale = "en_CA",
+  type = "website",
+  publishedTime,
+  publisher,
 }) {
   const { site, allFile } = useStaticQuery(graphql`
     query {
@@ -83,6 +86,7 @@ function SEO({
       }}
       title={title}
       titleTemplate={`%s | ${site.siteMetadata.title}`}
+      link={canonical ? [{ rel: `canonical`, href: canonical }] : []}
       meta={[
         {
           name: `description`,
@@ -98,9 +102,20 @@ function SEO({
         },
         {
           property: `og:type`,
-          content: `website`,
+          content: type,
         },
-        // Use the site default social card (prefer large image)
+        canonical && {
+          property: `og:url`,
+          content: canonical,
+        },
+        publisher && {
+          property: `article:publisher`,
+          content: publisher,
+        },
+        publishedTime && {
+          property: `article:published_time`,
+          content: publishedTime,
+        },
         {
           name: `twitter:card`,
           content: `summary_large_image`,
@@ -110,7 +125,6 @@ function SEO({
           content:
             site.siteMetadata.social?.twitter || site.siteMetadata.author,
         },
-        // Social images (absolute URLs)
         absoluteImageUrl && {
           property: "og:image",
           content: absoluteImageUrl,
