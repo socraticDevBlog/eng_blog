@@ -1,5 +1,7 @@
 ---
 title: "cyberpunk and hackers novels"
+seoTitle: "Cyberpunk and Hacker Novels Worth Reading"
+seoDescription: "A curated list of cyberpunk and hacker fiction novels worth reading, from Cryptonomicon to Snow Crash and Little Brother."
 date: 2026-06-27
 author: "SocraticDev"
 image: ../../images/hacker-novels.png

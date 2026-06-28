@@ -18,19 +18,26 @@ const SinglePost = ({ data }) => {
   const imgSrc = getSrc(img)
   const socialImg = getImage(post.socialImage.childImageSharp.gatsbyImageData)
   const socialImgSrc = getSrc(socialImg)
+  const seoTitle = post.seoTitle || post.title
+  const seoDescription = post.seoDescription || data.markdownRemark.excerpt
+
   return (
     <Layout pageTitle={""}>
-      <SEO title={post.title} />
+      <SEO
+        title={seoTitle}
+        description={seoDescription}
+        image={socialImgSrc}
+      />
 
       <Helmet>
-        <title>{`${post.title} | ${siteTitle}`}</title>
+        <title>{`${seoTitle} | ${siteTitle}`}</title>
         <meta charSet="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <meta property="og:title" content={post.title} />
+        <meta property="og:title" content={seoTitle} />
         <meta property="og:author" content={post.author} />
         <meta property="og:type" content="article" />
         <meta property="article:publisher" content="https://en.socratic.dev" />
-        <meta property="og:description" content={data.markdownRemark.excerpt} />
+        <meta property="og:description" content={seoDescription} />
         <meta property="og:image" content={`${rootUrlImg}${socialImgSrc}`} />
         <meta property="article:published_time" content={post.dateISO} />
         <meta
@@ -40,10 +47,8 @@ const SinglePost = ({ data }) => {
         <meta property="og:site_name" content={siteTitle} />
         <meta property="twitter:image" content={`${rootUrlImg}${imgSrc}`} />
         <meta name="twitter:card" content="summary_large_image" />
-        <meta
-          name="twitter:description"
-          content={data.markdownRemark.excerpt}
-        />
+        <meta name="twitter:title" content={seoTitle} />
+        <meta name="twitter:description" content={seoDescription} />
         <meta property="og:type" content="article" />
         <meta property="og:locale" content="en_CA" />
         <link
@@ -96,6 +101,8 @@ export const postQuery = graphql`
       }
       frontmatter {
         title
+        seoTitle
+        seoDescription
         author
         date(formatString: "dddd MMMM Do YYYY")
         dateISO: date(formatString: "YYYY-MM-DDTHH:mm:ss[Z]")
