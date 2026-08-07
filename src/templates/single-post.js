@@ -20,36 +20,19 @@ const SinglePost = ({ data }) => {
   const socialImgSrc = getSrc(socialImg)
   return (
     <Layout pageTitle={""}>
-      <SEO title={post.title} />
+      <SEO
+        title={post.title}
+        description={data.markdownRemark.excerpt}
+        image={socialImgSrc}
+        canonical={`${rootUrl}/${data.markdownRemark.fields.slug}`}
+        type="article"
+        publishedTime={post.dateISO}
+        publisher="https://en.socratic.dev"
+      />
 
       <Helmet>
-        <title>{`${post.title} | ${siteTitle}`}</title>
         <meta charSet="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <meta property="og:title" content={post.title} />
-        <meta property="og:author" content={post.author} />
-        <meta property="og:type" content="article" />
-        <meta property="article:publisher" content="https://en.socratic.dev" />
-        <meta property="og:description" content={data.markdownRemark.excerpt} />
-        <meta property="og:image" content={`${rootUrlImg}${socialImgSrc}`} />
-        <meta property="article:published_time" content={post.dateISO} />
-        <meta
-          property="og:url"
-          content={`${rootUrl}/${data.markdownRemark.fields.slug}`}
-        />
-        <meta property="og:site_name" content={siteTitle} />
-        <meta property="twitter:image" content={`${rootUrlImg}${imgSrc}`} />
-        <meta name="twitter:card" content="summary_large_image" />
-        <meta
-          name="twitter:description"
-          content={data.markdownRemark.excerpt}
-        />
-        <meta property="og:type" content="article" />
-        <meta property="og:locale" content="en_CA" />
-        <link
-          rel="canonical"
-          href={`${rootUrl}/${data.markdownRemark.fields.slug}`}
-        />
       </Helmet>
 
       <Card>
