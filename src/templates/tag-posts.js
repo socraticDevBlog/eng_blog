@@ -6,9 +6,8 @@ import Post from "../components/post"
 const tagPosts = ({ data, pageContext }) => {
   const { tag } = pageContext
   const { totalCount } = data.allMarkdownRemark
-  const pageHeader = `${totalCount} post${
-    totalCount > 1 ? "s" : ""
-  } about "${tag}" `
+  const pageHeader = `${totalCount} post${totalCount > 1 ? "s" : ""
+    } about "${tag}" `
 
   return (
     <Layout pageTitle={pageHeader}>
@@ -32,7 +31,12 @@ export const tagQuery = graphql`
   query ($tag: String!) {
     allMarkdownRemark(
       sort: { frontmatter: { date: DESC } }
-      filter: { frontmatter: { tags: { in: [$tag] } } }
+      filter: {
+        frontmatter: {
+          tags: { in: [$tag] }
+          is_archived: { ne: true }
+        }
+      }
     ) {
       totalCount
       edges {
